@@ -10,6 +10,7 @@ import Home from "../home"
 import Theater from "../theater"
 import Ticket from "../ticket"
 import My from "../my"
+import Login from "../login"
 
 class TabBar extends React.Component{
     render(){
@@ -43,10 +44,10 @@ class TabBar extends React.Component{
                             <Route path={"/theater"} component={Theater}></Route>
                             <Route path={"/ticket"} component={Ticket}></Route>
                             <Route path={"/my"} component={My}></Route>
+                            <Route path={"/login"} component={Login}></Route>
                         </Switch>
                     </ul>
                 </Router>
-            
         )
     }
 }

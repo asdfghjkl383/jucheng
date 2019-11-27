@@ -1,4 +1,9 @@
-
+.header{
+    width:750px;
+    height: 88.6px;
+    background:pink;
+    padding:0,38.0286px,0,30.0267px;
+}
 .footer{
     width:750px;
     height:140px;
