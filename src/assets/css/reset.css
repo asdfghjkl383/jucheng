@@ -1,0 +1,43 @@
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,form,input,fieldset,legend,figure,figcaption{
+    margin:0;
+    padding:0;
+}
+ol,ul,li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size:16px;
+    font-weight: normal;
+}
+em,i{
+    font-style: none
+}
+b,strong{
+    font-weight: normal;
+}
+img{
+    display: block;
+    border:0;
+}
+input{
+    outline:none;
+}
+.clear_fix:after{
+    content:".";
+    height:0;
+    display:block;
+    clear:both;
+    visibility: hidden;
+}
+.clear_fix{
+    *zoom:1;
+}
+.lf{
+    float: left;
+}
+.lr{
+    float:right;
+}
