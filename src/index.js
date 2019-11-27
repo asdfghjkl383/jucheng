@@ -4,7 +4,9 @@ import './index.css';
 import "./assets/css/reset.css"
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import 'lib-flexible'
+import 'lib-flexible';
+import axios from 'axios';
+React.Component.prototype.$axios=axios;
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
