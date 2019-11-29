@@ -14,25 +14,25 @@ import My from "../../views/my"
 class TabBar extends React.Component{
     render(){
         return (
-                <Router>
+                <div>
                     <ul>
-                    <div className={"footer"}>
-                        <li className={"lf"}>
+                    <div className="footer">
+                        <li className="lf">
                             <NavLink exact to={"/"} className={"home"} activeClassName={"active-home"}>
                                 <span>首页</span>
                             </NavLink>
                         </li>
-                        <li className={"lf"}>
+                        <li className="lf">
                             <NavLink to={"/theater"} className={"theater"} activeClassName={"active-theater"}>
                                 <span>剧院</span>
                             </NavLink>
                         </li>
-                        <li className={"lf"}>
+                        <li className="lf">
                             <NavLink to={"/ticket"} className={"ticket"} activeClassName={"active-ticket"}>
                                 <span>票夹</span>
                             </NavLink>
                         </li>
-                        <li className={"lf"}>
+                        <li className="lf">
                             <NavLink to={"/my"} className={"my"} activeClassName={"active-my"}>
                                 <span>我的</span>
                             </NavLink>
@@ -45,7 +45,7 @@ class TabBar extends React.Component{
                             <Route path={"/my"} component={My}></Route>
                         </Switch>
                     </ul>
-                </Router>
+                </div>
             
         )
     }

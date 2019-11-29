@@ -1,12 +1,10 @@
-import React from "react" 
-import VipHome from "../../components/home/VipHome"
-import HotsRecommend from "../../components/home/HotsRecommend"
+import React from "react";
+import ShowList from "../../components/Home/ShowList";
 class Home extends React.Component{
     render(){
         return (
-            <div>Home
-                <VipHome></VipHome>
-                <HotsRecommend></HotsRecommend>
+            <div>
+                <ShowList></ShowList>
             </div>
         )
     }

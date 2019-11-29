@@ -1,8 +1,9 @@
 
 .footer{
     width:100%;
-    height:140px;
-    background: #fff;
+    height:88px;
+    background:#fefefe;
+    /* background:red; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -11,55 +12,60 @@
 }
 .lf{
     width: 25%;
-    height:140px;
+    height:88px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+img{
+    width:80px;
+}
 ul{
-    width:100%;
+    width:750px;
 }
 span{
     width: 50px;
+    display: block;
+    padding-bottom: 20px;
 }
 .home{
     color: #000;
-    background: url("../images/1-2.png") center center/50px 50px no-repeat;
+    background: url("../images/1-2.png") center center/45px 45px no-repeat;
     padding-top:80px;
 }
 .active-home{
     color: #000;
-    background: url("../images/1-1.png") center center/50px 50px no-repeat;
+    background: url("../images/1-1.png") center center/45px 45px no-repeat;
     padding-top:80px;
 }
 .theater{
     color: #000;
-    background: url("../images/2-2.png") center center/50px 50px no-repeat;
+    background: url("../images/2-2.png") center center/45px 45px no-repeat;
     padding-top:80px;
 }
 .active-theater{
     color: #000;
-    background: url("../images/2-1.png") center center/50px 50px no-repeat;
+    background: url("../images/2-1.png") center center/45px 45px no-repeat;
     padding-top:80px;
 }
 .ticket{
     color: #000;
-    background: url("../images/3-2.png") center center/50px 50px no-repeat;
+    background: url("../images/3-2.png") center center/45px 45px no-repeat;
     padding-top:80px;
 }
 .active-ticket{
     color: #000;
-    background: url("../images/3-1.png") center center/50px 50px no-repeat;
+    background: url("../images/3-1.png") center center/45px 45px no-repeat;
     padding-top:80px;
 }
 .my{
     color: #000;
-    background: url("../images/4-2.png") center center/50px 50px no-repeat;
+    background: url("../images/4-2.png") center center/45px 45px no-repeat;
     padding-top:80px;
 }
 .active-my{
     color: #000;
-    background: url("../images/4-1.png") center center/50px 50px no-repeat;
+    background: url("../images/4-1.png") center center/45px 45px no-repeat;
     padding-top:80px;
 }

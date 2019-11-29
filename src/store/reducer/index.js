@@ -1,9 +1,5 @@
-import {
-    combineReducers
-} from "redux"
-import vipHomeReducer from "./vipHome"
-import hotsRecommendReducer from "./HotsRecommend"
+import ShowList from "./ShowList";
+import {combineReducers} from "redux";
 export default combineReducers({
-    vipHome:vipHomeReducer,
-    hotsRecommend:hotsRecommendReducer
+    ShowList
 })
