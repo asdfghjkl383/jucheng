@@ -10,9 +10,6 @@ export default {
                     page
                 }
             })
-            // const {list} = data.data;
-            // console.log(list,page);
-            // let page = data.data.page;
             dispatch(upShowList({page:data.data.page,list:data.data.list}))
         }
     }

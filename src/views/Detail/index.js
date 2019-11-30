@@ -1,81 +1,60 @@
 import React from "react";
 import "../../assets/css/detail.css";
-// import "../../assets/js/babel.min.js";
+import {connect} from "react-redux";
+import {bindActionCreators} from "redux";
+import DetailCreator from "../../store/actionCreator/Detial";
 class Detail extends React.Component{
-    constructor(){
-        super();
-        this.state = {
-            static_data:{},
-            date:"",
-            city_name:"",
-            desc:""
-        }
-    }
-    
     render(){
-        const static_data = this.state.static_data;
+        const static_data = this.props.static_data;
         return (
-            <div>详情页
+            <div className="wrap">
                 {
                     <div>
-                        <img src={static_data.pic} alt="" />
-                        <p>{static_data.show_name}</p>
-                        <p>￥{static_data.price_range}</p>
-                        <p>{this.state.date}</p>
-                        <p>{this.state.city_name}</p>
-                        <div className="box" dangerouslySetInnerHTML={{__html:this.state.desc}}></div>
-                        {/* <script src="../../assets/js/babel.min.js"></script>
-                        <script type="text/babel">{this.state.desc}</script> */}
+                        <div className="show_box">
+                            <img className="brief__bg" src={static_data.pic} alt="" />
+                            <div className="detial">
+                                <span onClick={()=>this.props.history.go(-1)} className="return">{"<"}</span>
+                                <span className="show">演出详情</span>
+                            </div>
+                            <div className="show_center">
+                                <img className="show_box_Img" src={static_data.pic} alt="" />
+                                <div className="brief__primary">
+                                    <div className="show_box_title">{static_data.show_name}</div>
+                                    <div className="show_box_price">￥{static_data.price_range}</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div className="box">
+                            <p className="show_box_bottom">{this.props.date}</p>
+                            <p className="show_city">{this.props.city_name} | {this.props.venue_name}</p>
+                            <div className="address">{this.props.venue_address}</div>
+                        </div>
+                        <div className="intro">
+                            <div className="intro__title">演出介绍</div>
+
+                            <div className="intro__content" dangerouslySetInnerHTML={{__html:this.props.desc}}></div>
+                        </div>
                     </div>
                 }
             </div>
         )
     }
     componentDidMount(){
-        this.$axios.get("/api/Schedule/Schedule/getScheduleInfo",{
-            params:{
-                schedular_id:this.props.match.params.id
-            }
-        }).then(({data})=>{
-            const static_data = data.data.static_data;
-            var b = function(obj) {
-                for(var key in obj) {
-                    return false;
-                }
-                return true;
-            }
-    
-            if(!b(static_data)){
-                console.log(static_data);
-                const {show_time_data} = static_data;
-                const {city} = static_data;
-                const {show_desc} = static_data;
-                if(!b(show_time_data)){
-                    const date = show_time_data.show_time_start_display
-                    console.log(show_time_data.show_time_start_display);
-                    this.setState({
-                        date
-                    })
-                }
-                if(!b(city)){
-                    const city_name = city.city_name
-                    console.log(city_name);
-                    this.setState({
-                        city_name
-                    })
-                }
-                if(!b(show_desc)){
-                    const desc = show_desc.desc
-                    console.log(desc);
-                    this.setState({
-                        desc
-                    })
-                }
-            }
-            this.setState({
-                static_data,
-            })
-        })
+        this.props.getScheduleInfo.call(this);
     }
 }
-export default Detail;
+function mapStateToProps({Detail}){
+    return{
+        static_data:Detail.static_data,
+        date:Detail.data,
+        city_name:Detail.city_name,
+        desc:Detail.desc.desc,
+        venue_name:Detail.venue_name,
+        venue_address:Detail.venue_address
+    }
+}
+function mapDispatchProps(dispatch){
+    return bindActionCreators(DetailCreator,dispatch)
+}
+export default connect(mapStateToProps,mapDispatchProps)(Detail) ;

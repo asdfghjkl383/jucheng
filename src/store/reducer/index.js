@@ -3,9 +3,11 @@ import VipHomeList from "./vipHome";
 import HotsRecommendList from "./HotsRecommend";
 import ShowsLibraryList from "./ShowsLibrary";
 import {combineReducers} from "redux";
+import Detail from "./Detial";
 export default combineReducers({
     ShowList,
     vipHome:VipHomeList,
     hotsRecommend:HotsRecommendList,
-    showsLibrary:ShowsLibraryList
+    showsLibrary:ShowsLibraryList,
+    Detail
 })

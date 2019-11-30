@@ -1,4 +1,4 @@
-html,body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,form,input,fieldset,legend,figure,figcaption{
+html,body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,form,input,fieldset,legend,figure,figcaption,strong{
     margin:0;
     padding:0;
 }
@@ -15,9 +15,9 @@ h1,h2,h3,h4,h5,h6{
 em,i{
     font-style: none
 }
-b,strong{
+/* b,strong{
     font-weight: normal;
-}
+} */
 img{
     display: block;
     border:0;
