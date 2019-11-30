@@ -32,7 +32,7 @@ class Detail extends React.Component{
         )
     }
     componentDidMount(){
-        this.$axios.get("/Schedule/Schedule/getScheduleInfo",{
+        this.$axios.get("/api/Schedule/Schedule/getScheduleInfo",{
             params:{
                 schedular_id:this.props.match.params.id
             }

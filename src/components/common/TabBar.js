@@ -1,7 +1,6 @@
 import React from 'react';
 import "../../assets/css/TabBar.css"
 import {
-    BrowserRouter as Router,
     Route,
     NavLink,
     Switch

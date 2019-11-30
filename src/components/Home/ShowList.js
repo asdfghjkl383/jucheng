@@ -2,13 +2,11 @@ import "../../assets/css/showList.css";
 
 import React from "react";
 import {connect} from "react-redux";
-import store from "../../store";
 import {bindActionCreators} from "redux";
 import ShowListCreator from "../../store/actionCreator/ShowList";
 import {Link,withRouter} from "react-router-dom";
 
 class ShowList extends React.Component{
-    
     render(){
         return (
             <div className="showList">
@@ -37,7 +35,6 @@ class ShowList extends React.Component{
     //     }
     // }
     componentDidMount(){
-        console.log(55555,store.getState());
         this.props.getShowList.call(this);
     }
     
