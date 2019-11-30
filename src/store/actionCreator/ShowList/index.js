@@ -6,12 +6,12 @@ export default {
      getShowList(page=1){
         console.log(page);
         return async (dispatch)=>{
-            const {data} = await this.$axios.get("/Show/Search/getShowList",{
+            const {data} = await this.$axios.get("/api/Show/Search/getShowList",{
                 params:{
                     page
                 }
             })
-            console.log(data.data);
+            // console.log(data.data);
             // const {list} = data.data;
             // console.log(list,page);
             // let page = data.data.page;
