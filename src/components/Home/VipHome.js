@@ -18,9 +18,7 @@ class VipHome extends React.Component{
                     <img src={vipHomeList.pic} alt={""}/>
                     <div className={"vipInfo"}>
                         <h3>{vipHomeList.schedular_name}</h3>
-                        {/* <div className="box"> */}
-                            <span>{vipHomeList.city_name} | {vipHomeList.venue_name}</span>
-                        {/* </div> */}
+                        <span>{vipHomeList.city_name} | {vipHomeList.venue_name}</span>
                         <h4>{vipHomeList.end_time} <font color={"#666"}>开始</font></h4>
                         <div className="start">开售提醒</div>
                     </div>

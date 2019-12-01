@@ -9,6 +9,7 @@ import {
 } from "react-router-dom"
 import Detail from "./views/Detail";
 import ShowsLibrary from "./views/showsLibrary";
+import MoreTourShowList from "./views/moreTourShowList"
 function App() {
     return (
       <div className="App">
@@ -16,6 +17,7 @@ function App() {
           <Switch>
             <Route path={"/detail/:id"} component={Detail}></Route>
             <Route path={"/showsLibrary"} component={ShowsLibrary}></Route>
+            <Route path={"/moreTourShowList"} component={MoreTourShowList}></Route>
             <Route path={"/"} component={TabBar}></Route>
           </Switch>
         </Router>

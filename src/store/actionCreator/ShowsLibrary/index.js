@@ -12,11 +12,11 @@ export const upCity=({type,payload})=>{
     }
 }
 export default {
-    getShowsLibraryList(){
+    getShowsLibraryList(category=0){
         return async (dispatch)=>{
             const {data}=await this.$axios.get("/api/Show/Search/getShowList",{
                 params:{
-                    category:0,
+                    category,
                     city_id:0,
                     page:1
                 }
@@ -32,7 +32,9 @@ export default {
                     referer:2
                 }
             });
+            // console.log(data);
             dispatch(upCity({type:"UP_CITY_LIST",payload:data.data.show_category_list}));
         }
-    }
+    },
+
 }

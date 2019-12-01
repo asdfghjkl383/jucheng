@@ -1,0 +1,32 @@
+.space-carousel {
+    padding: 16px;
+    overflow: hidden;
+    touch-action: none;
+}
+.tourRecommendContainer{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.tourRecommendContainer>h3{
+    font-size:38px;
+    font-weight:600;
+    color: #232323;
+    text-align: left;
+    margin-bottom:30px;
+}
+.tourRecommendContainer>.more{
+    position: absolute;
+    right:30px;
+    top:505px;
+    font-size:40px;
+}
+.showName{
+    font-size:30px;
+    font-weight: 700;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}

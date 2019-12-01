@@ -21,7 +21,7 @@
 }
 .vipHome>img{
     width:130px;
-    height:180px;
+    height:200px;
     float:left;
     margin-right:20px;
 }
@@ -34,15 +34,17 @@
     font-size:28px;
     font-weight:700;
     text-align:left;
-    margin-bottom:20px;
+    margin-bottom:40px;
 }
 .vipInfo>span{
     width:320px;
+    margin-left: -150px;
 }
 .vipInfo>h4{
     color:#ff6743;
     text-align:left;
     font-weight:500;
+    margin-top:40px;
 }
 .start{
     width:150px;

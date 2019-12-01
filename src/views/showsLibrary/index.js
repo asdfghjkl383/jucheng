@@ -15,10 +15,20 @@ class ShowsLibrary extends React.Component{
         return (
             <div className="showsLibraryContainer">
                 <Link className="return" to={"/"}>{"<"}</Link>
-                <span>演出</span><img className="more" src={require("../../assets/images/dot.png")} alt={""}/>
+                <span>演出</span>
+                <img className="more" src={require("../../assets/images/dot.png")} alt={""}/>
                 <div className="nav-address">
                     <div className="nav">
-                        <li className="firstLi" schedular_id={"1"} onClick={console.log(document.querySelector(".firstLi"))}>全部</li>
+                        <li className="firstLi" schedular_id={"1"} onClick={()=>{
+                            this.props.getShowsLibraryList.call(this);
+                            const lis = Array.prototype.slice.call(document.querySelectorAll(".nav li"));
+                            lis.map(v=>{
+                                v.style.color="black"
+                                v.style.borderBottom="none"
+                            })
+                            document.querySelector(".firstLi").style.color="red";
+                            document.querySelector(".firstLi").style.borderBottom="1px solid red";
+                        }}>全部</li>
                         {
                             this.props.cityList.map(v=>(
                                 <li onClick={this.tabCity.bind(this,v.category_id)} key={v.category_id}>{v.name}</li>
@@ -27,7 +37,7 @@ class ShowsLibrary extends React.Component{
                     </div>
                 </div>
                 <div className="address">
-                        全国<img src={require("../../assets/images/position.png")} alt={""}/>
+                    全国<img src={require("../../assets/images/position.png")} alt={""}/>
                 </div>
                 <div className="showsLibraryInfo">
                     {
@@ -45,7 +55,6 @@ class ShowsLibrary extends React.Component{
                     }
                 </div>
             </div>
-            
         )
     }
     tabCity(id,e){
@@ -56,6 +65,8 @@ class ShowsLibrary extends React.Component{
         })
         e.target.style.color="red";
         e.target.style.borderBottom="1px solid red";
+        // 根据schedular_id来获取当下这个类别的所有演出，实现tab切换
+        this.props.getShowsLibraryList.call(this,id);
     }
     componentDidMount(){
         this.props.getShowsLibraryList.call(this);
