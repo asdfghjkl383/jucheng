@@ -19,13 +19,13 @@ class HotsRecommend extends React.Component{
                 <li className="hotsRecommend">
                     {
                         this.props.hotsRecommendList.map(v=>(
-                            <div className="hotsRecommendInfo" key={v.schedular_url}>
+                            <Link to={"/detail/"+v.schedular_url.substring(v.schedular_url.length-6)} className="hotsRecommendInfo" key={v.schedular_url}>
                                 <img style={{
                                     width:"100px",
                                     height:"135px"
                                 }} src={v.pic} alt={""}/>
                                 <h5>{v.show_name}</h5>
-                            </div>
+                            </Link>
                         ))
                     }
                 </li>

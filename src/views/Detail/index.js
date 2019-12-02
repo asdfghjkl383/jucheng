@@ -28,7 +28,7 @@ class Detail extends React.Component{
                         <div className="box">
                             <p className="show_box_bottom">{this.props.date}</p>
                             <p className="show_city">{this.props.city_name} | {this.props.venue_name}</p>
-                            <div className="address">{this.props.venue_address}</div>
+                            <div className="show_address">{this.props.venue_address}</div>
                         </div>
                         <div className="intro">
                             <div className="intro__title">演出介绍</div>

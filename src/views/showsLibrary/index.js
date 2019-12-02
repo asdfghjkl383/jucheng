@@ -42,7 +42,7 @@ class ShowsLibrary extends React.Component{
                 <div className="showsLibraryInfo">
                     {
                         this.props.showsLibraryList.map(v=>(
-                            <div className="recommend-cell"  key={v.schedular_id}>
+                            <Link to={"/detail/"+v.schedular_id} className="recommend-cell"  key={v.schedular_id}>
                                 <div>
                                     <img className="listImg" src={v.pic} alt="" />
                                     <div className="time">{v.start_show_time}</div>
@@ -50,7 +50,7 @@ class ShowsLibrary extends React.Component{
                                     <p className="city">{v.city_name}|{v.venue_name}</p>
                                     <p className="price">￥{v.min_price}起</p>
                                 </div>
-                            </div>
+                            </Link>
                         ))
                     }
                 </div>

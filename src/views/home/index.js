@@ -10,7 +10,7 @@ class Home extends React.Component{
             <div>
                 <HotsRecommend></HotsRecommend>
                 <TourRecommend></TourRecommend>
-                <VipHome></VipHome>
+                {/* <VipHome></VipHome> */}
                 <FloorShow></FloorShow>
                 <ShowList></ShowList>
             </div>
