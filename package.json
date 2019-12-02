@@ -1,15 +1,10 @@
 {
   "name": "aaaa",
   "version": "0.1.0",
-<<<<<<< Updated upstream
   "babel":{
     "presets": ["react", "es2015"],
     "plugins": [["import", [{ "libraryName": "antd-mobile", "style": "css" }]]]
   },
-=======
-  "presets": ["react", "es2015"],
-  "plugins": [["import", [{ "libraryName": "antd-mobile", "style": "css" }]]],
->>>>>>> Stashed changes
   "private": true,
   "dependencies": {
     "antd-mobile": "^2.3.1",

@@ -35,13 +35,9 @@ class Detail extends React.Component{
                             <div className="intro__title">演出介绍</div>
                             <div className="intro__content" dangerouslySetInnerHTML={{__html:this.props.desc}}></div>
                         </div>
-<<<<<<< Updated upstream
-=======
                         <div className="related__title">相关推荐</div>
                         <Related></Related>
                         <Ticket></Ticket>
-                        
->>>>>>> Stashed changes
                     </div>
                 }
             </div>
