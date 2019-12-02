@@ -1,0 +1,51 @@
+ img{
+     /* height:150px;  */
+     margin-left: 30px;  
+     padding-top:50px; 
+ }
+ .two{    
+     width:100%;
+     height:140px;
+     font-size:10px;
+     font-weight:bolder;
+     padding-top:10px; 
+           
+ }
+ .one{
+     display: flex;
+     border-bottom:1px solid rgb(207, 205, 205);
+     height:250px;     
+ }
+ .aaa{
+    width:100%;
+    height:250px;
+    
+ }
+ p{
+     
+     color:rgb(29, 29, 31);
+     margin-top:50px;
+     /* margin-right:100px; */
+ }
+ input{
+     width:390px;
+     height:70px;
+     border:1px dashed  rgb(240, 238, 238);
+     background:rgba(233, 235, 233, 0.075);
+ } 
+ .big{
+    border:10px solid rgb(244, 248, 244);
+    margin:20px;
+    background:rgb(245, 247, 245);    
+ }
+ .two>input{
+     position: absolute;
+     border:#fefefe;
+ }
+  
+ 
+  
+ 
+  
+  
+ 
