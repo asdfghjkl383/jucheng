@@ -1,5 +1,4 @@
 import "../../assets/css/showList.css";
-
 import React from "react";
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
@@ -28,12 +27,6 @@ class ShowList extends React.Component{
             </div>
         )
     }
-    // componentWillMount(){
-    //     // this.props.getShowList.call(this);
-    //     if(this.props.schedular_id){
-    //         this.props.getShowList.call(this);
-    //     }
-    // }
     componentDidMount(){
         this.props.getShowList.call(this);
     }

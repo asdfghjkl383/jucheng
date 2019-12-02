@@ -4,5 +4,6 @@ export default {
     city_name:"",
     desc:"",
     venue_name:"",
-    venue_address:""
+    venue_address:"",
+    // list:[],
 }
