@@ -14,7 +14,9 @@ import hotsRecommendActionCreator from "../../store/actionCreator/hotsRecommend"
 class HotsRecommend extends React.Component{
     render(){
         return (
+            
             <div className="hotsRecommendContainer">
+                
                 <h3>热门演出</h3><Link className="more" to={"/showsLibrary"}>></Link>
                 <li className="hotsRecommend">
                     {

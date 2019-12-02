@@ -1,4 +1,6 @@
 import React from "react";
+import Related from "../../components/Related";
+import Ticket from "../../components/common/Ticket";
 import "../../assets/css/detail.css";
 import {connect} from "react-redux";
 import {bindActionCreators} from "redux";
@@ -24,7 +26,6 @@ class Detail extends React.Component{
                                 </div>
                             </div>
                         </div>
-                        
                         <div className="box">
                             <p className="show_box_bottom">{this.props.date}</p>
                             <p className="show_city">{this.props.city_name} | {this.props.venue_name}</p>
@@ -32,9 +33,11 @@ class Detail extends React.Component{
                         </div>
                         <div className="intro">
                             <div className="intro__title">演出介绍</div>
-
                             <div className="intro__content" dangerouslySetInnerHTML={{__html:this.props.desc}}></div>
                         </div>
+                        <div className="related__title">相关推荐</div>
+                        <Related></Related>
+                        <Ticket></Ticket>
                     </div>
                 }
             </div>
@@ -42,6 +45,7 @@ class Detail extends React.Component{
     }
     componentDidMount(){
         this.props.getScheduleInfo.call(this);
+        this.props.getRelated.call(this);
     }
 }
 function mapStateToProps({Detail}){
@@ -51,7 +55,9 @@ function mapStateToProps({Detail}){
         city_name:Detail.city_name,
         desc:Detail.desc.desc,
         venue_name:Detail.venue_name,
-        venue_address:Detail.venue_address
+        venue_address:Detail.venue_address,
+        city_id:Detail.city_id,
+        category:Detail.static_data.cate_parent_id,
     }
 }
 function mapDispatchProps(dispatch){

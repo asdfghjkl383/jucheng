@@ -1,0 +1,41 @@
+.header>input{
+  width:570px;
+  height:80px;
+  font-size:30px;
+  border-radius:50px;
+  border:1px solid rgb(199, 198, 198);
+  font-weight: bolder;
+  margin-left:10px;
+  text-align: center;
+  margin-top:20px;
+}
+.header{
+    background-image: url('../../assets/images/3-1.png') no-repeat 100% 100%;
+}
+img{
+    width:230px;
+    height:200px;
+    margin-right:20px;
+}
+h2{
+    font-weight:bolder;
+    text-align: center;
+
+}
+ 
+one{
+    margin-bottom:20px;
+    height:680px;
+}
+h2,h3{
+    padding-top:20px;
+    text-align: center;
+    width:400px;
+    padding-left:40px;
+}
+.two1{
+    height:300px;
+}
+ 
+ 
+ 

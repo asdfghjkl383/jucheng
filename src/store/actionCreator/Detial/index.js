@@ -2,6 +2,10 @@ export const upScheduleInfo = (payload)=>({
     type:"UP_SCHEDULE_INFO",
     payload
 })
+export const upRelated = (payload)=>({
+    type:"UP_RELATED",
+    payload
+})
 export default {
     getScheduleInfo(){
         return async (dispatch)=>{
@@ -26,9 +30,10 @@ export default {
                     })
                 }
                 if(!b(city)){
-                    const city_name = city.city_name;
+                    const {city_name,city_id} = city;
                     this.setState({
-                        city_name
+                        city_name,
+                        city_id
                     })
                 }
                 if(!b(show_desc)){
@@ -53,15 +58,29 @@ export default {
                 venue_address:data.data.static_data.venue.venue_address,
                 venue_name:data.data.static_data.venue.venue_name
             }))
-
+        }
+    },
+    getRelated(){
+        return async(dispatch)=>{
+            const {data} = await this.$axios.get("/api/Schedule/Schedule/getScheduleInfo",{
+                params:{
+                    schedular_id:this.props.match.params.id
+                }
+            });
+            const category=data.data.static_data.cate_parent_id;
+            const city_id = data.data.static_data.city.city_id;
             const results = await this.$axios.get("/api/Show/Search/getShowList",{
                 params:{
-                    category:this.props.static_data.cate_parent_id,
-                    city_id:this.props.static_data.city.city_id
+                    category,
+                    city_id
                 }
             })
-            const related = results.data.data;
-            console.log(222,related);
+            const relatedList = results.data.data.list;
+            const List = relatedList.slice(0,3);
+            dispatch(upRelated({
+                list:List
+            }))
         }
+        
     }
 }

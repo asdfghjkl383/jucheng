@@ -3,8 +3,9 @@ import VipHomeList from "./vipHome";
 import HotsRecommendList from "./HotsRecommend";
 import ShowsLibraryList from "./ShowsLibrary";
 import TourRecommendList from "./TourRecommend"
-import {combineReducers} from "redux";
 import Detail from "./Detial";
+import Related from "./Related";
+import {combineReducers} from "redux";
 import MoreTourShowList from "./MoreTourShowList"
 import FloorShowList from "./FloorShow"
 export default combineReducers({
@@ -15,5 +16,6 @@ export default combineReducers({
     Detail,
     TourRecommend:TourRecommendList,
     MoreTourShowList,
-    FloorShow:FloorShowList
+    FloorShow:FloorShowList,
+    Related
 })
