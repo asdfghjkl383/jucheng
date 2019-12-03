@@ -11,6 +11,7 @@ class Ticket extends React.Component {
   }
   componentDidMount(){
     console.log(this.props.match.params.id)
+    console.log(this.props)
   }
 }
 export default withRouter(Ticket);
