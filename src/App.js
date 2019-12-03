@@ -9,9 +9,7 @@ import {
 import Detail from "./views/Detail";
 import ShowsLibrary from "./views/showsLibrary";
 import MoreTourShowList from "./views/moreTourShowList"
-import Theater from './views/theater'
 import Theater_one from './views/Theater_one'
-import Theater_two from './views/Theater_two'
 import Select from "./views/select";
 import Pay from "./views/pay";
 function App() {
@@ -25,7 +23,6 @@ function App() {
             <Route path={"/showsLibrary"} component={ShowsLibrary}></Route>
             <Route path={"/moreTourShowList"} component={MoreTourShowList}></Route>
             <Route path={"/theater_one"} component={Theater_one}></Route>
-            <Route path={"/theater_two"} component={Theater_two}></Route>
             <Route path={"/"} component={TabBar}></Route>
           </Switch>
         </Router>

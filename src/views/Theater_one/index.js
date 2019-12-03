@@ -52,7 +52,7 @@ class Theater_one extends React.Component {
     }
     // axios获取接口的数据，传参，重新设置list，page的值
     searchList() {
-        this.$axios.get("/Show/Search/getShowList",{
+        this.$axios.get("/api/Show/Search/getShowList",{
                 params:{//page必须传否则无法产生关联
                     keywords:this.refs.wj.value,
                     page:1,
