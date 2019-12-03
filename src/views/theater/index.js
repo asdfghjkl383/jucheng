@@ -48,11 +48,7 @@ class App extends React.Component {
         )
     }
     getList() {
-<<<<<<< Updated upstream
         this.$axios.get("/api/theatre/index/getTheatreList",{
-=======
-        this.$axios.get("api//theatre/index/getTheatreList",{
->>>>>>> Stashed changes
             params:{
                 page:1
             }
