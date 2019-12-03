@@ -32,9 +32,9 @@ class App extends React.Component {
                             {    
                                 //对theatre_list下的showList进行数组二次遍历           
                                 v.showList.map(v=>(   
-                                <div className={'swiper'} style={{marginRight:'40px'}}>          
-                                    <div key={v.id}  style={{height:'100%',width:'100px'}}>          
-                                        <img className="theaterImg" src={v.pic}  alt=""/>
+                                <div className={'swiper'} style={{marginRight:'10px'}}>          
+                                    <div key={v.id} className="theaterImg" style={{height:'100%',width:'100px'}}>          
+                                        <img  src={v.pic}  alt=""/>
                                     </div> 
                                 </div>
                                 ))                         

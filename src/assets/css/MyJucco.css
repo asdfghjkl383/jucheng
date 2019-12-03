@@ -41,7 +41,7 @@
     height:100%;
     margin: 1.5rem .4rem 0;
     border-radius: 0.04rem;
-    background: #fff;
+    /* background: #fff; */
 }
 .mine-info__main__head{
     padding:0 .4rem;
@@ -85,8 +85,11 @@
     -webkit-box-align: center;
     align-items: center;
     box-sizing: border-box;
-    border:1px solid rgb(212, 211, 210);
+    border-top:1px solid rgb(212, 211, 210);
+    border-bottom:1px solid rgb(212, 211, 210);
     margin-bottom:10px;
+    background:#fff;
+    margin-top:30px;
 }
 .mine-info_main_cnt_item{
     -webkit-box-flex: 1;
