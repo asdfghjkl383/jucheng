@@ -24,7 +24,11 @@ class Theater_one extends React.Component {
                 this.state.list.map(v=>(   
                     <div key={v.id} className={'big1'}>
                         <div className={"one"} onClick={this.handleClickBtn.bind(this)}>
+<<<<<<< HEAD
                         <div className={'Img_two'}><img src={v.pic}  alt=""/></div>
+=======
+                        <img className="theaterImg" src={v.pic}  alt=""/>
+>>>>>>> 579538cdb8f5982d7c4d0db3e36b843d24c9905b
                         <div className={'two1'}>
                         <div className="theater_one_h">{v.end_show_time}</div>
                         <div className="theater_one_h">{v.name}</div>  
