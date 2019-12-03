@@ -1,13 +1,15 @@
 import React from "react";
-import VipHome from "../../components/Home/VipHome";
-import HotsRecommend from "../../components/Home/HotsRecommend";
-import ShowList from "../../components/Home/ShowList";
-import TourRecommend from "../../components/Home/TourRecommend"
-import FloorShow from "../../components/Home/FloorShow"
+import VipHome from "../../components/home/VipHome";
+import HotsRecommend from "../../components/home/HotsRecommend";
+import ShowList from "../../components/home/ShowList";
+import TourRecommend from "../../components/home/TourRecommend"
+import FloorShow from "../../components/home/FloorShow"
+import Header from "../../components/home/header/header.js"
 class Home extends React.Component{
     render(){
         return (
             <div>
+                <Header></Header>
                 <HotsRecommend></HotsRecommend>
                 <TourRecommend></TourRecommend>
                 {/* <VipHome></VipHome> */}

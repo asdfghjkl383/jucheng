@@ -13,5 +13,12 @@ module.exports = function (app) {
         pathRewrite:{
             "^/api":""
         }
+    })),
+    app.use("/l",proxy({
+        target:"https://127.0.0.1:8060",
+        changeOrigin:true,
+        pathRewrite:{
+            "^/l":""
+        }
     }))
 } 

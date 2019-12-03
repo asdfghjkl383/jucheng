@@ -1,0 +1,12 @@
+.search_header {
+        height: 100px;
+        width: 750px;
+        background: lightcoral;
+        /* padding-left:20px;
+        padding-right:20px; */
+        position: fixed;
+        /* margin: 0; */
+        /* padding:10px; */
+        overflow: hidden;
+        z-index: 20;
+}

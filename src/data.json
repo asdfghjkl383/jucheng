@@ -1,0 +1,1530 @@
+{
+    "code": "200",
+    "msg": "ok",
+    "data": {
+        "A": {
+            "id": "A",
+            "list": [
+                {
+                    "id": 53,
+                    "name": "澳门",
+                    "enname": "aomen",
+                    "Abbreviation": "AM",
+                    "is_city": 0
+                },
+                {
+                    "id": 10129,
+                    "name": "安庆",
+                    "enname": "anqing",
+                    "Abbreviation": "AQ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10137,
+                    "name": "安顺",
+                    "enname": "anshun",
+                    "Abbreviation": "AS",
+                    "is_city": 1
+                }
+            ]
+        },
+        "B": {
+            "id": "B",
+            "list": [
+                {
+                    "id": 10152,
+                    "name": "滨州",
+                    "enname": "binzhou",
+                    "Abbreviation": "B Z",
+                    "is_city": 1
+                },
+                {
+                    "id": 10120,
+                    "name": "蚌埠",
+                    "enname": "bengbu",
+                    "Abbreviation": "BB",
+                    "is_city": 1
+                },
+                {
+                    "id": 10039,
+                    "name": "保定",
+                    "enname": "baoding",
+                    "Abbreviation": "BD",
+                    "is_city": 1
+                },
+                {
+                    "id": 5,
+                    "name": "北京",
+                    "enname": "beijing",
+                    "Abbreviation": "BJ",
+                    "is_city": 0
+                },
+                {
+                    "id": 69,
+                    "name": "百色",
+                    "enname": "baise",
+                    "Abbreviation": "BS",
+                    "is_city": 1
+                },
+                {
+                    "id": 71,
+                    "name": "包头",
+                    "enname": "baotou",
+                    "Abbreviation": "BT",
+                    "is_city": 1
+                },
+                {
+                    "id": 10100,
+                    "name": "本溪",
+                    "enname": "benxi",
+                    "Abbreviation": "BX",
+                    "is_city": 1
+                },
+                {
+                    "id": 10069,
+                    "name": "白银",
+                    "enname": "baiyin",
+                    "Abbreviation": "BY",
+                    "is_city": 1
+                }
+            ]
+        },
+        "C": {
+            "id": "C",
+            "list": [
+                {
+                    "id": 10155,
+                    "name": "郴州",
+                    "enname": "Chenzhou",
+                    "Abbreviation": "C Z",
+                    "is_city": 1
+                },
+                {
+                    "id": 6,
+                    "name": "成都",
+                    "enname": "chengdu",
+                    "Abbreviation": "CD",
+                    "is_city": 0
+                },
+                {
+                    "id": 10029,
+                    "name": "长春",
+                    "enname": "changchun",
+                    "Abbreviation": "CHCH",
+                    "is_city": 1
+                },
+                {
+                    "id": 10172,
+                    "name": "常德",
+                    "enname": "changde",
+                    "Abbreviation": "CHD",
+                    "is_city": 1
+                },
+                {
+                    "id": 10178,
+                    "name": "昌吉",
+                    "enname": "changji",
+                    "Abbreviation": "CJ",
+                    "is_city": 1
+                },
+                {
+                    "id": 12,
+                    "name": "重庆",
+                    "enname": "chongqing",
+                    "Abbreviation": "CQ",
+                    "is_city": 0
+                },
+                {
+                    "id": 14,
+                    "name": "长沙",
+                    "enname": "changsha",
+                    "Abbreviation": "CS",
+                    "is_city": 0
+                },
+                {
+                    "id": 10177,
+                    "name": "常熟",
+                    "enname": "changshu",
+                    "Abbreviation": "CS",
+                    "is_city": 1
+                },
+                {
+                    "id": 10011,
+                    "name": "常州",
+                    "enname": "changzhou",
+                    "Abbreviation": "CZ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10045,
+                    "name": "滁州",
+                    "enname": "chuzhou",
+                    "Abbreviation": "cz",
+                    "is_city": 1
+                },
+                {
+                    "id": 10066,
+                    "name": "潮州",
+                    "enname": "chaozhou",
+                    "Abbreviation": "cz",
+                    "is_city": 1
+                }
+            ]
+        },
+        "D": {
+            "id": "D",
+            "list": [
+                {
+                    "id": 10101,
+                    "name": "丹东",
+                    "enname": "dandong",
+                    "Abbreviation": "DD",
+                    "is_city": 1
+                },
+                {
+                    "id": 10031,
+                    "name": "德阳",
+                    "enname": "deyang",
+                    "Abbreviation": "DEYANG",
+                    "is_city": 1
+                },
+                {
+                    "id": 10156,
+                    "name": "德州",
+                    "enname": "dezhou",
+                    "Abbreviation": "DEZ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10128,
+                    "name": "东方",
+                    "enname": "dongfang",
+                    "Abbreviation": "DF",
+                    "is_city": 1
+                },
+                {
+                    "id": 10019,
+                    "name": "东莞",
+                    "enname": "dongguan",
+                    "Abbreviation": "DG",
+                    "is_city": 0
+                },
+                {
+                    "id": 10014,
+                    "name": "都江堰",
+                    "enname": "dujiangyan",
+                    "Abbreviation": "DJY",
+                    "is_city": 1
+                },
+                {
+                    "id": 31,
+                    "name": "大连",
+                    "enname": "dalian",
+                    "Abbreviation": "DL",
+                    "is_city": 1
+                },
+                {
+                    "id": 73,
+                    "name": "大理",
+                    "enname": "dali",
+                    "Abbreviation": "DL",
+                    "is_city": 1
+                },
+                {
+                    "id": 32,
+                    "name": "大庆",
+                    "enname": "daqing",
+                    "Abbreviation": "DQ",
+                    "is_city": 0
+                },
+                {
+                    "id": 10159,
+                    "name": "大同",
+                    "enname": "datong",
+                    "Abbreviation": "DT",
+                    "is_city": 1
+                },
+                {
+                    "id": 10098,
+                    "name": "东营",
+                    "enname": "dongying",
+                    "Abbreviation": "Dy",
+                    "is_city": 1
+                },
+                {
+                    "id": 10118,
+                    "name": "达州",
+                    "enname": "dazhou",
+                    "Abbreviation": "DZ",
+                    "is_city": 1
+                }
+            ]
+        },
+        "E": {
+            "id": "E",
+            "list": [
+                {
+                    "id": 33,
+                    "name": "鄂尔多斯",
+                    "enname": "eerduosi",
+                    "Abbreviation": "EEDS",
+                    "is_city": 1
+                }
+            ]
+        },
+        "F": {
+            "id": "F",
+            "list": [
+                {
+                    "id": 10163,
+                    "name": "肥东县",
+                    "enname": "feidongxian",
+                    "Abbreviation": "FD",
+                    "is_city": 1
+                },
+                {
+                    "id": 10023,
+                    "name": "福建",
+                    "enname": "fujian",
+                    "Abbreviation": "FJ",
+                    "is_city": 0
+                },
+                {
+                    "id": 10145,
+                    "name": "龙岩",
+                    "enname": "longyan",
+                    "Abbreviation": "FJLY",
+                    "is_city": 1
+                },
+                {
+                    "id": 28,
+                    "name": "佛山",
+                    "enname": "foshan",
+                    "Abbreviation": "FS",
+                    "is_city": 1
+                },
+                {
+                    "id": 10059,
+                    "name": "釜山",
+                    "enname": "fushan",
+                    "Abbreviation": "FS",
+                    "is_city": 1
+                },
+                {
+                    "id": 10193,
+                    "name": "抚顺",
+                    "enname": "fushun",
+                    "Abbreviation": "FSS",
+                    "is_city": 0
+                },
+                {
+                    "id": 10146,
+                    "name": "阜阳",
+                    "enname": "fuyang",
+                    "Abbreviation": "FY",
+                    "is_city": 1
+                },
+                {
+                    "id": 61,
+                    "name": "福州",
+                    "enname": "fuzhou",
+                    "Abbreviation": "FZ",
+                    "is_city": 1
+                }
+            ]
+        },
+        "G": {
+            "id": "G",
+            "list": [
+                {
+                    "id": 10082,
+                    "name": "桂林",
+                    "enname": "guilin",
+                    "Abbreviation": "GL",
+                    "is_city": 1
+                },
+                {
+                    "id": 10008,
+                    "name": "贵阳",
+                    "enname": "guiyang",
+                    "Abbreviation": "GY",
+                    "is_city": 0
+                },
+                {
+                    "id": 3,
+                    "name": "广州",
+                    "enname": "guangzhou",
+                    "Abbreviation": "GZ",
+                    "is_city": 0
+                },
+                {
+                    "id": 10127,
+                    "name": "赣州",
+                    "enname": "ganzhou",
+                    "Abbreviation": "GZH",
+                    "is_city": 1
+                }
+            ]
+        },
+        "H": {
+            "id": "H",
+            "list": [
+                {
+                    "id": 37,
+                    "name": "淮安",
+                    "enname": "huaian",
+                    "Abbreviation": "HA",
+                    "is_city": 1
+                },
+                {
+                    "id": 10016,
+                    "name": "汉中",
+                    "enname": "hanzhong",
+                    "Abbreviation": "HANZHONG",
+                    "is_city": 1
+                },
+                {
+                    "id": 10119,
+                    "name": "淮北",
+                    "enname": "huaibei",
+                    "Abbreviation": "HBE",
+                    "is_city": 1
+                },
+                {
+                    "id": 10160,
+                    "name": " 河池",
+                    "enname": "hechi",
+                    "Abbreviation": "HC",
+                    "is_city": 1
+                },
+                {
+                    "id": 10040,
+                    "name": "邯郸",
+                    "enname": "handan",
+                    "Abbreviation": "HD",
+                    "is_city": 1
+                },
+                {
+                    "id": 10027,
+                    "name": "哈尔滨",
+                    "enname": "haerbin",
+                    "Abbreviation": "HEB",
+                    "is_city": 0
+                },
+                {
+                    "id": 10162,
+                    "name": "衡阳",
+                    "enname": "hengyang",
+                    "Abbreviation": "HENGY",
+                    "is_city": 1
+                },
+                {
+                    "id": 10165,
+                    "name": "菏泽",
+                    "enname": "heze",
+                    "Abbreviation": "HEZ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10001,
+                    "name": "合肥",
+                    "enname": "hefei",
+                    "Abbreviation": "HF",
+                    "is_city": 0
+                },
+                {
+                    "id": 10058,
+                    "name": "黄冈",
+                    "enname": "huanggang",
+                    "Abbreviation": "HG",
+                    "is_city": 1
+                },
+                {
+                    "id": 72,
+                    "name": "呼和浩特",
+                    "enname": "呼和浩特",
+                    "Abbreviation": "HHHT",
+                    "is_city": 1
+                },
+                {
+                    "id": 35,
+                    "name": "海口",
+                    "enname": "haikou",
+                    "Abbreviation": "HK",
+                    "is_city": 1
+                },
+                {
+                    "id": 10042,
+                    "name": "淮南",
+                    "enname": "huainan",
+                    "Abbreviation": "HN",
+                    "is_city": 1
+                },
+                {
+                    "id": 10113,
+                    "name": "海南",
+                    "enname": "hainan",
+                    "Abbreviation": "HNS",
+                    "is_city": 1
+                },
+                {
+                    "id": 10147,
+                    "name": "黄山",
+                    "enname": "HUANGSHAN",
+                    "Abbreviation": "HS",
+                    "is_city": 1
+                },
+                {
+                    "id": 10124,
+                    "name": "衡水",
+                    "enname": "hengshui",
+                    "Abbreviation": "HSH",
+                    "is_city": 1
+                },
+                {
+                    "id": 10090,
+                    "name": "河源",
+                    "enname": "heyuan",
+                    "Abbreviation": "HY",
+                    "is_city": 1
+                },
+                {
+                    "id": 11,
+                    "name": "杭州",
+                    "enname": "hangzhou",
+                    "Abbreviation": "HZ",
+                    "is_city": 0
+                },
+                {
+                    "id": 38,
+                    "name": "惠州",
+                    "enname": "huizhou",
+                    "Abbreviation": "HZ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10184,
+                    "name": "贺州",
+                    "enname": "hezhou",
+                    "Abbreviation": "HZS",
+                    "is_city": 1
+                }
+            ]
+        },
+        "J": {
+            "id": "J",
+            "list": [
+                {
+                    "id": 10061,
+                    "name": "荆州",
+                    "enname": "jingzhou",
+                    "Abbreviation": "J",
+                    "is_city": 1
+                },
+                {
+                    "id": 10009,
+                    "name": "晋城",
+                    "enname": "jincheng",
+                    "Abbreviation": "JC",
+                    "is_city": 1
+                },
+                {
+                    "id": 64,
+                    "name": "景德镇",
+                    "enname": "jingdezhen",
+                    "Abbreviation": "JDZ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10092,
+                    "name": "金华",
+                    "enname": "jinhua",
+                    "Abbreviation": "JH",
+                    "is_city": 1
+                },
+                {
+                    "id": 10168,
+                    "name": "荆门",
+                    "enname": "jingmen",
+                    "Abbreviation": "JINGMEN",
+                    "is_city": 1
+                },
+                {
+                    "id": 66,
+                    "name": "九江",
+                    "enname": "jiujiang",
+                    "Abbreviation": "JJ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10122,
+                    "name": "晋江",
+                    "enname": "jinjiang",
+                    "Abbreviation": "JJTWO",
+                    "is_city": 1
+                },
+                {
+                    "id": 10104,
+                    "name": "吉林",
+                    "enname": "jilin",
+                    "Abbreviation": "JL",
+                    "is_city": 1
+                },
+                {
+                    "id": 29,
+                    "name": "江门",
+                    "enname": "jiangmen",
+                    "Abbreviation": "JM",
+                    "is_city": 1
+                },
+                {
+                    "id": 10006,
+                    "name": "济南",
+                    "enname": "jinan",
+                    "Abbreviation": "JN",
+                    "is_city": 0
+                },
+                {
+                    "id": 10062,
+                    "name": "嘉兴",
+                    "enname": "jiaxing",
+                    "Abbreviation": "JX",
+                    "is_city": 1
+                },
+                {
+                    "id": 10132,
+                    "name": "焦作",
+                    "enname": "jiaozuo",
+                    "Abbreviation": "JZ",
+                    "is_city": 1
+                }
+            ]
+        },
+        "K": {
+            "id": "K",
+            "list": [
+                {
+                    "id": 10188,
+                    "name": "吉隆坡",
+                    "enname": "Kuala Lumpur",
+                    "Abbreviation": "KL",
+                    "is_city": 1
+                },
+                {
+                    "id": 52,
+                    "name": "昆明",
+                    "enname": "kunming",
+                    "Abbreviation": "KM",
+                    "is_city": 0
+                }
+            ]
+        },
+        "L": {
+            "id": "L",
+            "list": [
+                {
+                    "id": 10078,
+                    "name": "廊坊",
+                    "enname": "LANGFANG",
+                    "Abbreviation": "LANGFANG",
+                    "is_city": 0
+                },
+                {
+                    "id": 10012,
+                    "name": "乐山",
+                    "enname": "leshan",
+                    "Abbreviation": "LES",
+                    "is_city": 1
+                },
+                {
+                    "id": 10094,
+                    "name": "辽阳",
+                    "enname": "liaoyang",
+                    "Abbreviation": "LIAOYANG",
+                    "is_city": 1
+                },
+                {
+                    "id": 10153,
+                    "name": "丽江",
+                    "enname": "lijiang",
+                    "Abbreviation": "LJ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10138,
+                    "name": "六盘水",
+                    "enname": "liupanshui",
+                    "Abbreviation": "LPS",
+                    "is_city": 1
+                },
+                {
+                    "id": 10075,
+                    "name": "丽水",
+                    "enname": "lishui",
+                    "Abbreviation": "LS",
+                    "is_city": 1
+                },
+                {
+                    "id": 10169,
+                    "name": "陵水县",
+                    "enname": "lingshuixian",
+                    "Abbreviation": "LS",
+                    "is_city": 1
+                },
+                {
+                    "id": 10055,
+                    "name": "陵水",
+                    "enname": "sanya",
+                    "Abbreviation": "LSHU",
+                    "is_city": 0
+                },
+                {
+                    "id": 10190,
+                    "name": "凉山",
+                    "enname": "liangshan",
+                    "Abbreviation": "LSYZZZZ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10005,
+                    "name": "洛阳",
+                    "enname": "luoyang",
+                    "Abbreviation": "LUOYANG",
+                    "is_city": 1
+                },
+                {
+                    "id": 10171,
+                    "name": "泸州",
+                    "enname": "luzhou",
+                    "Abbreviation": "LUZHOU",
+                    "is_city": 1
+                },
+                {
+                    "id": 10028,
+                    "name": "临沂",
+                    "enname": "linyi",
+                    "Abbreviation": "LY",
+                    "is_city": 1
+                },
+                {
+                    "id": 10133,
+                    "name": "耒阳",
+                    "enname": "leiyang",
+                    "Abbreviation": "LYang",
+                    "is_city": 1
+                },
+                {
+                    "id": 39,
+                    "name": "连云港",
+                    "enname": "lianyungang",
+                    "Abbreviation": "LYG",
+                    "is_city": 1
+                },
+                {
+                    "id": 10167,
+                    "name": "浏阳",
+                    "enname": "liuyang",
+                    "Abbreviation": "LYY",
+                    "is_city": 1
+                },
+                {
+                    "id": 34,
+                    "name": "兰州",
+                    "enname": "lanzhou",
+                    "Abbreviation": "LZ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10067,
+                    "name": "柳州",
+                    "enname": "liuzhou",
+                    "Abbreviation": "LZ",
+                    "is_city": 2
+                }
+            ]
+        },
+        "M": {
+            "id": "M",
+            "list": [
+                {
+                    "id": 10176,
+                    "name": "马鞍山",
+                    "enname": "maanshan",
+                    "Abbreviation": "MAS",
+                    "is_city": 1
+                },
+                {
+                    "id": 10183,
+                    "name": "马来西亚",
+                    "enname": "Malaysia",
+                    "Abbreviation": "MLXY",
+                    "is_city": 1
+                },
+                {
+                    "id": 10144,
+                    "name": "茂名",
+                    "enname": "maoming",
+                    "Abbreviation": "MM",
+                    "is_city": 1
+                },
+                {
+                    "id": 10003,
+                    "name": "绵阳",
+                    "enname": "mianyang",
+                    "Abbreviation": "MY",
+                    "is_city": 1
+                },
+                {
+                    "id": 10143,
+                    "name": "梅州",
+                    "enname": "meizhou",
+                    "Abbreviation": "MZ",
+                    "is_city": 1
+                }
+            ]
+        },
+        "N": {
+            "id": "N",
+            "list": [
+                {
+                    "id": 10010,
+                    "name": "南充",
+                    "enname": "nanchong",
+                    "Abbreviation": "NANCHONG",
+                    "is_city": 1
+                },
+                {
+                    "id": 41,
+                    "name": "宁波",
+                    "enname": "ningbo",
+                    "Abbreviation": "NB",
+                    "is_city": 0
+                },
+                {
+                    "id": 26,
+                    "name": "南昌",
+                    "enname": "nanchang",
+                    "Abbreviation": "NC",
+                    "is_city": 1
+                },
+                {
+                    "id": 54,
+                    "name": "南京",
+                    "enname": "nanjing",
+                    "Abbreviation": "NJ",
+                    "is_city": 0
+                },
+                {
+                    "id": 10185,
+                    "name": "内蒙古",
+                    "enname": "neimenggu",
+                    "Abbreviation": "NMG",
+                    "is_city": 1
+                },
+                {
+                    "id": 27,
+                    "name": "南宁",
+                    "enname": "nanning",
+                    "Abbreviation": "NN",
+                    "is_city": 1
+                },
+                {
+                    "id": 10189,
+                    "name": "南平",
+                    "enname": "nanping",
+                    "Abbreviation": "NP",
+                    "is_city": 1
+                },
+                {
+                    "id": 40,
+                    "name": "南通",
+                    "enname": "nantong",
+                    "Abbreviation": "NT",
+                    "is_city": 1
+                }
+            ]
+        },
+        "P": {
+            "id": "P",
+            "list": [
+                {
+                    "id": 10064,
+                    "name": "莆田",
+                    "enname": "putian",
+                    "Abbreviation": "PT",
+                    "is_city": 1
+                }
+            ]
+        },
+        "Q": {
+            "id": "Q",
+            "list": [
+                {
+                    "id": 43,
+                    "name": "青岛",
+                    "enname": "qingdao",
+                    "Abbreviation": "QD",
+                    "is_city": 1
+                },
+                {
+                    "id": 10096,
+                    "name": "秦皇岛",
+                    "enname": "qinhuangdao",
+                    "Abbreviation": "QHD",
+                    "is_city": 1
+                },
+                {
+                    "id": 10076,
+                    "name": "曲靖",
+                    "enname": "qujing",
+                    "Abbreviation": "QJ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10174,
+                    "name": "潜江",
+                    "enname": "qianjiang",
+                    "Abbreviation": "QJ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10135,
+                    "name": "其他",
+                    "enname": "qita",
+                    "Abbreviation": "QT",
+                    "is_city": 1
+                },
+                {
+                    "id": 10080,
+                    "name": "清远",
+                    "enname": "qingyuan",
+                    "Abbreviation": "QY",
+                    "is_city": 1
+                },
+                {
+                    "id": 62,
+                    "name": "泉州",
+                    "enname": "quanzhou",
+                    "Abbreviation": "QZ",
+                    "is_city": 0
+                }
+            ]
+        },
+        "R": {
+            "id": "R",
+            "list": [
+                {
+                    "id": 10158,
+                    "name": "日本",
+                    "enname": "riben",
+                    "Abbreviation": "RB",
+                    "is_city": 1
+                },
+                {
+                    "id": 44,
+                    "name": "日照",
+                    "enname": "rizhao",
+                    "Abbreviation": "RZ",
+                    "is_city": 1
+                }
+            ]
+        },
+        "S": {
+            "id": "S",
+            "list": [
+                {
+                    "id": 10151,
+                    "name": "随州",
+                    "enname": "hubei",
+                    "Abbreviation": "S Z",
+                    "is_city": 1
+                },
+                {
+                    "id": 10057,
+                    "name": "首尔",
+                    "enname": "shouer",
+                    "Abbreviation": "SE",
+                    "is_city": 1
+                },
+                {
+                    "id": 10142,
+                    "name": "韶关",
+                    "enname": "shaoguan",
+                    "Abbreviation": "SG",
+                    "is_city": 1
+                },
+                {
+                    "id": 4,
+                    "name": "上海",
+                    "enname": "shanghai",
+                    "Abbreviation": "SH",
+                    "is_city": 0
+                },
+                {
+                    "id": 10116,
+                    "name": "商丘",
+                    "enname": "shangqiu",
+                    "Abbreviation": "SHQ",
+                    "is_city": 1
+                },
+                {
+                    "id": 36,
+                    "name": "石家庄",
+                    "enname": "shijiazhuang",
+                    "Abbreviation": "SJZ",
+                    "is_city": 0
+                },
+                {
+                    "id": 10186,
+                    "name": "三门峡",
+                    "enname": "sanmenxia",
+                    "Abbreviation": "SMX",
+                    "is_city": 1
+                },
+                {
+                    "id": 10181,
+                    "name": "遂宁",
+                    "enname": "suining",
+                    "Abbreviation": "SN",
+                    "is_city": 1
+                },
+                {
+                    "id": 10056,
+                    "name": "宿迁",
+                    "enname": "suqian",
+                    "Abbreviation": "SQ",
+                    "is_city": 1
+                },
+                {
+                    "id": 65,
+                    "name": "上饶",
+                    "enname": "shangrao",
+                    "Abbreviation": "SR",
+                    "is_city": 1
+                },
+                {
+                    "id": 10074,
+                    "name": "汕头",
+                    "enname": "shantou",
+                    "Abbreviation": "st",
+                    "is_city": 1
+                },
+                {
+                    "id": 10070,
+                    "name": "绍兴",
+                    "enname": "shaoxing",
+                    "Abbreviation": "SX",
+                    "is_city": 2
+                },
+                {
+                    "id": 10191,
+                    "name": "三亚",
+                    "enname": "sanya",
+                    "Abbreviation": "SY",
+                    "is_city": 1
+                },
+                {
+                    "id": 10180,
+                    "name": "十堰",
+                    "enname": "Shiyan",
+                    "Abbreviation": "SYS",
+                    "is_city": 1
+                },
+                {
+                    "id": 10004,
+                    "name": "沈阳",
+                    "enname": "shenyang",
+                    "Abbreviation": "SYY",
+                    "is_city": 0
+                },
+                {
+                    "id": 1,
+                    "name": "深圳",
+                    "enname": "shenzhen",
+                    "Abbreviation": "SZ",
+                    "is_city": 0
+                },
+                {
+                    "id": 25,
+                    "name": "苏州",
+                    "enname": "suzhou",
+                    "Abbreviation": "SZS",
+                    "is_city": 0
+                }
+            ]
+        },
+        "T": {
+            "id": "T",
+            "list": [
+                {
+                    "id": 68,
+                    "name": "台北",
+                    "enname": "tb",
+                    "Abbreviation": "TB",
+                    "is_city": 1
+                },
+                {
+                    "id": 50,
+                    "name": "天津",
+                    "enname": "tianjin",
+                    "Abbreviation": "TJ",
+                    "is_city": 0
+                },
+                {
+                    "id": 10020,
+                    "name": "通辽",
+                    "enname": "tongliao",
+                    "Abbreviation": "TONGLIAO",
+                    "is_city": 1
+                },
+                {
+                    "id": 10051,
+                    "name": "唐山",
+                    "enname": "tangshan",
+                    "Abbreviation": "TS",
+                    "is_city": 1
+                },
+                {
+                    "id": 45,
+                    "name": "桐乡",
+                    "enname": "tongxiang",
+                    "Abbreviation": "TX",
+                    "is_city": 1
+                },
+                {
+                    "id": 60,
+                    "name": "太原",
+                    "enname": "taiyuan",
+                    "Abbreviation": "TY",
+                    "is_city": 1
+                },
+                {
+                    "id": 10063,
+                    "name": "泰州",
+                    "enname": "taizhou",
+                    "Abbreviation": "TZ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10081,
+                    "name": "台州",
+                    "enname": "taizhou",
+                    "Abbreviation": "TZh",
+                    "is_city": 1
+                }
+            ]
+        },
+        "W": {
+            "id": "W",
+            "list": [
+                {
+                    "id": 10002,
+                    "name": "威海",
+                    "enname": "weihai",
+                    "Abbreviation": "WEIHAI",
+                    "is_city": 1
+                },
+                {
+                    "id": 10026,
+                    "name": "潍坊",
+                    "enname": "weifang",
+                    "Abbreviation": "WF",
+                    "is_city": 1
+                },
+                {
+                    "id": 17,
+                    "name": "武汉",
+                    "enname": "wuhan",
+                    "Abbreviation": "WH",
+                    "is_city": 0
+                },
+                {
+                    "id": 10086,
+                    "name": "乌鲁木齐",
+                    "enname": "wulumuqi",
+                    "Abbreviation": "WLMQ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10139,
+                    "name": "芜湖",
+                    "enname": "wuhu",
+                    "Abbreviation": "WUHU",
+                    "is_city": 1
+                },
+                {
+                    "id": 10166,
+                    "name": "梧州",
+                    "enname": "wuzhou",
+                    "Abbreviation": "WUZ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10007,
+                    "name": "无锡",
+                    "enname": "wuxi",
+                    "Abbreviation": "WX",
+                    "is_city": 0
+                },
+                {
+                    "id": 10046,
+                    "name": "温州",
+                    "enname": "wenzhou",
+                    "Abbreviation": "wz",
+                    "is_city": 1
+                }
+            ]
+        },
+        "X": {
+            "id": "X",
+            "list": [
+                {
+                    "id": 10060,
+                    "name": "西双版纳",
+                    "enname": "xishuangbanna",
+                    "Abbreviation": "X",
+                    "is_city": 1
+                },
+                {
+                    "id": 51,
+                    "name": "西安",
+                    "enname": "xian",
+                    "Abbreviation": "XA",
+                    "is_city": 0
+                },
+                {
+                    "id": 10149,
+                    "name": "兴安盟",
+                    "enname": "XINGANMENG",
+                    "Abbreviation": "XANM",
+                    "is_city": 1
+                },
+                {
+                    "id": 10065,
+                    "name": "西昌",
+                    "enname": "xichang",
+                    "Abbreviation": "XC",
+                    "is_city": 1
+                },
+                {
+                    "id": 15,
+                    "name": "香港",
+                    "enname": "xianggang",
+                    "Abbreviation": "XG",
+                    "is_city": 0
+                },
+                {
+                    "id": 10173,
+                    "name": "孝感",
+                    "enname": "xiaogan",
+                    "Abbreviation": "XG",
+                    "is_city": 1
+                },
+                {
+                    "id": 10134,
+                    "name": "新加坡",
+                    "enname": "xinjiapo",
+                    "Abbreviation": "XJP",
+                    "is_city": 1
+                },
+                {
+                    "id": 63,
+                    "name": "厦门",
+                    "enname": "xm",
+                    "Abbreviation": "XM",
+                    "is_city": 1
+                },
+                {
+                    "id": 10088,
+                    "name": "西宁",
+                    "enname": "xining",
+                    "Abbreviation": "XN",
+                    "is_city": 1
+                },
+                {
+                    "id": 10192,
+                    "name": "咸宁",
+                    "enname": "xianning",
+                    "Abbreviation": "XNS",
+                    "is_city": 1
+                },
+                {
+                    "id": 10043,
+                    "name": "新乡",
+                    "enname": "xinxiang",
+                    "Abbreviation": "xx",
+                    "is_city": 1
+                },
+                {
+                    "id": 10079,
+                    "name": "襄阳",
+                    "enname": "xiangyang",
+                    "Abbreviation": "XY",
+                    "is_city": 1
+                },
+                {
+                    "id": 10161,
+                    "name": "信阳",
+                    "enname": "xinyang",
+                    "Abbreviation": "XYANG",
+                    "is_city": 1
+                },
+                {
+                    "id": 10017,
+                    "name": "徐州",
+                    "enname": "xuzhou ",
+                    "Abbreviation": "XZH",
+                    "is_city": 1
+                }
+            ]
+        },
+        "Y": {
+            "id": "Y",
+            "list": [
+                {
+                    "id": 10154,
+                    "name": "宜州",
+                    "enname": "yizhou",
+                    "Abbreviation": "Y Z",
+                    "is_city": 1
+                },
+                {
+                    "id": 10013,
+                    "name": "雅安",
+                    "enname": "yaan",
+                    "Abbreviation": "YA",
+                    "is_city": 1
+                },
+                {
+                    "id": 10187,
+                    "name": "延安",
+                    "enname": "yanan",
+                    "Abbreviation": "YAS",
+                    "is_city": 1
+                },
+                {
+                    "id": 10018,
+                    "name": "宜宾",
+                    "enname": "yibin",
+                    "Abbreviation": "YB",
+                    "is_city": 1
+                },
+                {
+                    "id": 42,
+                    "name": "银川",
+                    "enname": "yinchuan",
+                    "Abbreviation": "YC",
+                    "is_city": 1
+                },
+                {
+                    "id": 10097,
+                    "name": "盐城",
+                    "enname": "yancheng",
+                    "Abbreviation": "YCH",
+                    "is_city": 1
+                },
+                {
+                    "id": 10141,
+                    "name": "云浮",
+                    "enname": "yunfu",
+                    "Abbreviation": "YF",
+                    "is_city": 1
+                },
+                {
+                    "id": 10073,
+                    "name": "宜昌",
+                    "enname": "yichang",
+                    "Abbreviation": "YIC",
+                    "is_city": 0
+                },
+                {
+                    "id": 70,
+                    "name": "宜春",
+                    "enname": "yichun",
+                    "Abbreviation": "YICHUN",
+                    "is_city": 1
+                },
+                {
+                    "id": 10077,
+                    "name": "阳江",
+                    "enname": "YangJiang",
+                    "Abbreviation": "YJ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10083,
+                    "name": "营口",
+                    "enname": "yingkou",
+                    "Abbreviation": "YK",
+                    "is_city": 1
+                },
+                {
+                    "id": 10164,
+                    "name": "玉林",
+                    "enname": "yulin",
+                    "Abbreviation": "YL",
+                    "is_city": 1
+                },
+                {
+                    "id": 10041,
+                    "name": "烟台",
+                    "enname": "yantai",
+                    "Abbreviation": "YT",
+                    "is_city": 1
+                },
+                {
+                    "id": 10022,
+                    "name": "运城",
+                    "enname": "yuncheng",
+                    "Abbreviation": "YUNCHENG",
+                    "is_city": 1
+                },
+                {
+                    "id": 10117,
+                    "name": "义乌",
+                    "enname": "yiwu",
+                    "Abbreviation": "YW",
+                    "is_city": 1
+                },
+                {
+                    "id": 46,
+                    "name": "益阳",
+                    "enname": "yiyang",
+                    "Abbreviation": "YY",
+                    "is_city": 1
+                },
+                {
+                    "id": 10030,
+                    "name": "扬州",
+                    "enname": "yangzhou",
+                    "Abbreviation": "YZ",
+                    "is_city": 1
+                }
+            ]
+        },
+        "Z": {
+            "id": "Z",
+            "list": [
+                {
+                    "id": 10038,
+                    "name": "淄博",
+                    "enname": "zibo",
+                    "Abbreviation": "ZB",
+                    "is_city": 1
+                },
+                {
+                    "id": 10175,
+                    "name": "邹城",
+                    "enname": "zoucheng",
+                    "Abbreviation": "ZC",
+                    "is_city": 1
+                },
+                {
+                    "id": 10071,
+                    "name": "自贡",
+                    "enname": "zigong",
+                    "Abbreviation": "ZG",
+                    "is_city": 1
+                },
+                {
+                    "id": 74,
+                    "name": "珠海",
+                    "enname": "zhuhai",
+                    "Abbreviation": "ZH",
+                    "is_city": 1
+                },
+                {
+                    "id": 10025,
+                    "name": "湛江",
+                    "enname": "zhanjiang",
+                    "Abbreviation": "ZHANJ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10024,
+                    "name": "舟山",
+                    "enname": "zhoushan",
+                    "Abbreviation": "ZHOUSHAN",
+                    "is_city": 1
+                },
+                {
+                    "id": 48,
+                    "name": "镇江",
+                    "enname": "zhenjiang",
+                    "Abbreviation": "ZJ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10182,
+                    "name": "张家港",
+                    "enname": "zhangjiagang",
+                    "Abbreviation": "ZJG",
+                    "is_city": 1
+                },
+                {
+                    "id": 10099,
+                    "name": "湖州",
+                    "enname": "huzhou",
+                    "Abbreviation": "ZJHZ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10170,
+                    "name": "张家口",
+                    "enname": "zhangjiakou",
+                    "Abbreviation": "ZJK",
+                    "is_city": 1
+                },
+                {
+                    "id": 10044,
+                    "name": "驻马店",
+                    "enname": "zhumadian",
+                    "Abbreviation": "znd",
+                    "is_city": 1
+                },
+                {
+                    "id": 10140,
+                    "name": "肇庆",
+                    "enname": "zhaoqing",
+                    "Abbreviation": "ZQ",
+                    "is_city": 1
+                },
+                {
+                    "id": 30,
+                    "name": "中山",
+                    "enname": "zhongshan",
+                    "Abbreviation": "ZS",
+                    "is_city": 1
+                },
+                {
+                    "id": 10033,
+                    "name": "遵义",
+                    "enname": "zunyi",
+                    "Abbreviation": "ZY",
+                    "is_city": 1
+                },
+                {
+                    "id": 56,
+                    "name": "郑州",
+                    "enname": "zhengzhou",
+                    "Abbreviation": "ZZ",
+                    "is_city": 0
+                },
+                {
+                    "id": 10048,
+                    "name": "株洲",
+                    "enname": "zhuzhou",
+                    "Abbreviation": "ZZ",
+                    "is_city": 1
+                },
+                {
+                    "id": 10130,
+                    "name": "漳州",
+                    "enname": "zhangzhou",
+                    "Abbreviation": "ZZh",
+                    "is_city": 1
+                }
+            ]
+        }
+    }
+}

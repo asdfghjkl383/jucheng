@@ -1,0 +1,375 @@
+.wrap {
+    height: 1334px;
+    width: 750px;
+    background-image: url(../../images/login_bg.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.wrap .aa {
+    background-image: url(../../images/left_gt.png);
+    background-size:40px;
+    background-repeat: no-repeat;
+    background-position: 20px,center;
+    padding-left: 20px;
+    width: 80px;
+    height: 88px;
+    margin-left: 20px;
+    float: left;
+    /* background:pink; */
+}
+.login_main {
+    height: 916.109px;
+    width:750.67px;
+    padding:88.781px,64.057px,0;
+    /* background: paleturquoise; */
+}
+.wrap .login_main .login_wrap {
+    margin: auto;
+    height:701.166px;
+    width: 622.56px;
+    padding-top:115.104px;
+    /* background: greenyellow; */
+}
+.login_title {
+    height: 48.04px;
+    width:622.56px;
+    line-height: 48.04px;
+    color:#232323;
+    font-stretch:normal;
+}
+.login_wrap h1 {
+    /* position: relative; */
+    font-size:50.0446px;
+    font-weight: 700;
+}
+
+/* ---------------------登录 ------------------------------------------*/
+.binded-phone {
+    height: 653.14px;
+    width: 622.56px;
+    /* background: gold; */
+    display: block;
+}
+.login-area {
+    height:210.817px;
+    width: 622.56px;
+    padding-top:150.133px;
+    /* background:plum; */
+}
+form {
+    display: block;
+}
+.login-area .lg-list .lg-item {
+    list-style:none;
+    width:622.56px ;
+    height:70px;
+    border-bottom: 1.5px solid #666;
+    font-size:16px;
+    line-height:59px ;
+    padding:37.53px,0;
+    margin-bottom:30.75px;
+    /* background:pink; */
+}
+.login-area .lg-list .lg-item .lg-input {
+    width: 400px;
+    height: 48.05px;
+    font-size: 30px;
+    border: none;
+    background-color: #fdfdfd;
+    outline: none;
+    float: left;
+    margin-top:9px;
+}
+.login-area  .lg-item .remove-btn {
+    display: inline-block;
+    width:25px ;
+    height:25px ;
+    vertical-align: middle;
+    background-image:url(../../images/login_delete.png);
+    background-size:100% ;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    /* position: relative; */
+    display: block;
+}
+.login-area  .lg-item .rbtn1 {
+    display: inline-block;
+    width:25px ;
+    height:25px ;
+    vertical-align: middle;
+    background-image:url(../../images/login_delete.png);
+    background-size:100% ;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    position: relative;
+    top:25px;
+    left:480px;
+    display: none;
+}
+.login-area  .lg-item .rbtn2 {
+    display: inline-block;
+    width:25px ;
+    height:25px ;
+    vertical-align: middle;
+    background-image:url(../../images/login_delete.png);
+    background-size:100% ;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    position: relative;
+    top:23px;
+    left:480px;
+    display: none;
+}
+.login-area  .lg-item .look1 {
+    background-image: url(../../images/login_visible.png);
+    width: 30px;
+    height: 30px;
+    background-size:100% ;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    /* position: relative; */
+    /* top:23px;
+    left:550px; */
+    float: right;
+    margin-right:30px;
+    display: none;
+}
+.login-area  .lg-item .unlook {
+    background-image: url(../../images/login_Invisible.png);
+    width: 30px;
+    height: 30px;
+    background-size:100% ;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    position: relative;
+    float: right;
+    margin-top:-5px;
+    margin-right:30px;
+    /* top:px; */
+    /* left:550px; */
+    display: none;
+}
+
+.login_wrap .binded-phone .login-button{
+    height:100.08px;
+    width:622.56px;
+    text-align: center;
+    line-height:100.08px;
+    color:#ffffff;
+    margin-top:90.08px;
+    border:none;
+    border-radius: 50px;
+    font-size:38px;
+}
+.login_wrap .binded-phone .err{
+    height: 50px;
+    width:400px;
+    background:#666;
+    color: #fdfdfd;
+    text-align: center;
+    line-height: 50px;
+    margin: auto;
+    position: absolute;
+    left: 25%;
+    border-radius: 10px;
+    display:none;
+    /* font-size: 16px; */
+}
+
+.login_wrap .binded-phone .login-toggle {
+    height: 40px;
+    width:622.56px;
+    font-size:28.024px;
+    color:#6666;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:40px;
+}
+.login_wrap .binded-phone .login-toggle .left {
+    height: 40px;
+    width:120.1px;
+    float: left;
+    color: #232323;
+}
+.login_wrap .binded-phone .login-toggle .right{
+    height: 40px;
+    width: 218.53px;
+    float: right;
+    color:#232323;
+}
+
+/* -----------------注册------------------------- */
+.binded-register {
+    height: 653.14px;
+    width: 622.56px;
+    display: none;
+    /* background: gold; */
+}
+.binded-register .binded-register .register-area {
+    height:210.817px;
+    width: 622.56px;
+    padding-top:150.133px;
+    /* background:plum; */
+}
+.binded-register .register-area .rt-list .rt-item {
+    list-style:none;
+    width:622.56px ;
+    height:70px;
+    border-bottom: 1.5px solid #666;
+    font-size:16px;
+    line-height:59px ;
+    /* padding:37.53px,0; */
+    margin-bottom:75px;
+    /* background:pink; */
+}
+.binded-register .register-area .rt-list .rt-item .register-title{
+    height:40px;
+    width:530px;
+    color:#232323;
+    font-size: 20.48px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-left:-100px;
+    margin-top:20px;
+}
+
+.register-area {
+    height:210.817px;
+    width: 622.56px;
+    padding-top:150.133px;
+    /* background:plum; */
+}
+form {
+    display: block;
+}
+.register-area .rt-list .rt-item {
+    list-style:none;
+    width:622.56px ;
+    height:70px;
+    border-bottom: 1.5px solid #666;
+    font-size:16px;
+    line-height:59px ;
+    padding:37.53px,0;
+    margin-bottom:30.75px;
+    /* background:pink; */
+}
+.register-area .rt-list .rt-item .rt-input {
+    width: 400px;
+    height: 48.05px;
+    font-size: 30px;
+    border: none;
+    background-color: #fdfdfd;
+    outline: none;
+    float: left;
+    margin-top:9px;
+}
+.login_wrap .binded-register .register-button{
+    height:100.08px;
+    width:622.56px;
+    text-align: center;
+    line-height:100.08px;
+    color:#ffffff;
+    margin-top:80px;
+    border:none;
+    border-radius: 50px;
+    font-size:38px;
+}
+.login_wrap .binded-register .register-toggle {
+    height: 40px;
+    width:622.56px;
+    font-size:28.024px;
+    color:#6666;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:40px;
+}
+.login_wrap .binded-register .register-toggle .left {
+    height: 40px;
+    width:120.1px;
+    float: left;
+    color: #232323;
+}
+.login_wrap .binded-register .register-toggle .right{
+    height: 40px;
+    width: 230.53px;
+    float: right;
+    color:#232323;
+}
+
+.login_wrap .binded-register .err{
+    height: 50px;
+    width:300px;
+    background:#666;
+    color: #fdfdfd;
+    text-align: center;
+    line-height: 50px;
+    margin: auto;
+    position: absolute;
+    left: 30%;
+    top:700px;
+    border-radius: 10px;
+    display:none;
+    /* font-size: 16px; */
+}
+/* --------------------------------------------- */
+
+.wrap .login_footer_wrap {
+    height: 143.12px;
+    width:469px;
+    padding:0,140.125px;
+    /* background:pink; */
+    margin:70px auto;
+    border-top:1px solid #6666;
+    position: relative;
+}
+.wrap .login_footer_wrap .footer_title {
+    position: absolute;
+    top:-25px;
+    left:30%;
+    font-size:26.023px;
+    color: #6666;
+    width: 196.15px;
+    height: 50.04px;
+    background: #ffff;
+    line-height: 50.04px;
+    text-align: center;
+}
+.login-qq {
+    height:72.06px;
+    width: 230px;
+    background-image: url(../../images/qq.png);
+    background-size:72.06px;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    float: left;
+    line-height: 72.06px;
+    margin-top:80px;
+}
+.login-qq a{
+    height: 72.06px;
+    width: 235px;
+}
+.login-weibo {
+    height:72.06px;
+    width: 230px;
+    background-image: url(../../images/weibo.png);
+    background-size:72.06px;
+    background-repeat: no-repeat;
+    background-position: center,center;
+    float: right;
+    margin-top:80px;
+}
+.login-qq a{
+    display: block;
+    height: 72.06px;
+    width: 230px;
+}
+
+.login-weibo a{
+    display: block;
+    height: 72.06px;
+    width: 230px;
+}
+
+
+    

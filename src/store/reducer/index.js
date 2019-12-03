@@ -7,7 +7,8 @@ import Detail from "./Detial";
 import Related from "./Related";
 import {combineReducers} from "redux";
 import MoreTourShowList from "./MoreTourShowList"
-import FloorShowList from "./FloorShow";
+import FloorShowList from "./FloorShow"
+import Header from './home/header/index'
 export default combineReducers({
     ShowList,
     vipHome:VipHomeList,
@@ -18,4 +19,5 @@ export default combineReducers({
     MoreTourShowList,
     FloorShow:FloorShowList,
     Related,
+    Header
 })
