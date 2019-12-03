@@ -4,8 +4,8 @@ import {Link,withRouter} from "react-router-dom";
 class Ticket extends React.Component {
   render() {
     return (
-      <Link className="select_box" to={"/select-seat/"+this.props.match.params.id}>
-        选座
+      <Link className="select_box" to={"/pay/"+this.props.match.params.id}>
+        立即支付
       </Link>
     )
   }

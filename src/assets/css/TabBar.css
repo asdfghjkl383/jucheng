@@ -12,7 +12,6 @@
 }
 .lf{
     width: 25%;
-    /* height:88px; */
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -37,7 +37,7 @@ class Detail extends React.Component{
                         </div>
                         <div className="related__title">相关推荐</div>
                         <Related></Related>
-                        <Ticket></Ticket>
+                        <Ticket show_name={static_data.show_name}></Ticket>
                     </div>
                 }
             </div>

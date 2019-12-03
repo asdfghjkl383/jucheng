@@ -22,9 +22,9 @@ class Related extends React.Component{
                         </div>
                     ))
                 }
-                <input type="button" value={"查看更多演出"} onClick={()=>{
+                <div className="recommend__more" onClick={()=>{
                     this.props.history.push("/showsLibrary")
-                }} />
+                }}>查看更多演出></div>
             </div>
         )
     }

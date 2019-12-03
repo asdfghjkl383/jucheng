@@ -1,0 +1,19 @@
+.select_box{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: .65rem;
+    border:none;
+    background-image: linear-gradient(-50deg,#ff4d4a,#ff9a34),linear-gradient(#fefefe,#fefefe);
+    background-blend-mode: normal,normal;
+    font-size: .45333rem;
+    font-weight: 700;
+    color: #fefefe;
+    width: 700px;
+    height: 1rem;
+    padding: .2rem .32rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position:fixed;
+    bottom: 0;
+    left: 25px;
+}

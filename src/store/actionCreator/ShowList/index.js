@@ -11,6 +11,7 @@ export default {
                 }
             })
             dispatch(upShowList({page:data.data.page,list:data.data.list}))
+            
         }
     }
 }

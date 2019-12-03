@@ -3,7 +3,6 @@
 }
 .show_box{
     height: 5.8rem;
-    /* position: relative; */
     color: #fff;
     font-weight: 700;
 }
@@ -132,4 +131,20 @@ img {
     margin-top: .44rem;
     text-align: left;
     background: #fff;
+}
+.recommend__more{
+    width: 4.24rem;
+    height: .96rem;
+    border-radius: .10667rem;
+    border: 1px solid #ff6743;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .4rem;
+    color: #ff6743;
+    display: flex;
+    justify-content: center;
+    vertical-align: bottom;
+    line-height: .96rem;
+    box-sizing: border-box;
+    margin-bottom:80px;
 }

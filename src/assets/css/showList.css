@@ -1,9 +1,8 @@
 .showList{
-    /* padding: 0 32px; */
     margin-left:12px;
     padding-right:32px;
-    /* padding-bottom:88px; */
     margin-bottom:64px;
+    background:#fefefe;
 }
 .recommend{
     width:100%;
@@ -60,4 +59,15 @@
     margin-right: .10667rem;
     font-weight: 400;
     margin-left:250px;
+}
+.loading{
+    margin-bottom: 50px;
+    width:100%;
+    height: 1rem;
+    color: #fefefe;
+    border-radius: .65rem;   
+    font-size: .45333rem;
+    font-weight: 700;
+    border:none;
+    background-image: linear-gradient(-50deg,#ff4d4a,#ff9a34),linear-gradient(#fefefe,#fefefe);
 }

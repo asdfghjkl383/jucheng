@@ -23,7 +23,7 @@ class ShowList extends React.Component{
                         </div>
                     ))
                 }
-                <input type="button" value={"加载更多"} onClick={this.props.getShowList.bind(this,this.props.page+1)} />
+                <input type="button" className="loading" value={"加载更多"} onClick={this.props.getShowList.bind(this,this.props.page+1)} />
             </div>
         )
     }
