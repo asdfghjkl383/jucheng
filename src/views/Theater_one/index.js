@@ -24,12 +24,19 @@ class Theater_one extends React.Component {
                 this.state.list.map(v=>(   
                     <div key={v.id} className={'big1'}>
                         <div className={"one"} onClick={this.handleClickBtn.bind(this)}>
-                        <img src={v.pic}  alt=""/>
+                        <img className="theaterImg" src={v.pic}  alt=""/>
                         <div className={'two1'}>
+<<<<<<< Updated upstream
                         <h2 className="theater_one_h">{v.end_show_time}</h2>
                         <h2 className="theater_one_h">{v.name}</h2>  
                         <h3 className="theater_one_h">{v.city_name}|{v.venue_name}</h3>
                         <h3 className="theater_one_h" style={{color:'red'}}>￥:{v.min_price}元</h3>
+=======
+                        <h2>{v.end_show_time}</h2>
+                        <h2>{v.name}</h2>  
+                        <h3>{v.city_name}|{v.venue_name}</h3>
+                        <h3 style={{color:'red'}}>￥:{v.min_price}元</h3>
+>>>>>>> Stashed changes
                         </div> 
                         </div>                        
                         </div>                                                                   
