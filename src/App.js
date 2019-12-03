@@ -29,10 +29,10 @@ function App() {
             <Route path={"/pay/:id"} component={Pay}></Route>
             <Route path={"/showsLibrary"} component={ShowsLibrary}></Route>
             <Route path={"/moreTourShowList"} component={MoreTourShowList}></Route>
-            <Route path={"/theater"} component={Theater}></Route>
+            {/* <Route path={"/theater"} component={Theater}></Route> */}
 
-            <Route path={"/theater_one"} component={Theater_one}></Route>
-            <Route path={"/theater_two"} component={Theater_two}></Route>
+            {/* <Route path={"/theater_one"} component={Theater_one}></Route>
+            <Route path={"/theater_two"} component={Theater_two}></Route> */}
 
 
             <Route path={"/"} component={TabBar}></Route>

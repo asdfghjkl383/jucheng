@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../App.css';
+// import '../../App.css';
 import '../../assets/css/theater.css'
 class App extends React.Component {
     constructor(props){
@@ -12,44 +12,43 @@ class App extends React.Component {
     }
     render() {
         return (
-            
             <div style={{background:'white',fontSize:'30px',fontWeight:'bolder'}}> 影院 
                     <input onClick={()=>this.props.history.go(-1)} 
                     style={{width:'100px',position:'absolute',left:'1px'}} 
                     type={'button'} value={'>'}/>    
                     <div>
                     { //渲染部分                     
-                    this.state.theatre_list.map(v=>(                                                                
+                    this.state.theatre_list.map(v=>(    
                         <div key={v.id} className={'big'}>
                             <div className={"one"} onClick={this.handleClickBtn.bind(this)}>
-                                <img src={v.pic} style={{width:'80px',height:'60px'}} alt=""/>
+                                <img className="theaterImg" src={v.pic} style={{width:'80px',height:'60px'}} alt=""/>
                                 <div className={'two'}>
                                     <input type={'button'} value={'.....'}/> 
                                     <p style={{fontSize:'20px'}}>{v.name}</p>  
-                                    <p>{v.count}场在售演出</p>                         
+                                    <p>{v.count}场在售演出</p>              
                                 </div>                   
                             </div>
                             <div className="aaa" style={{display:'flex',flexDirection:'row',overflow:'auto'}}>
                             {    
                                 //对theatre_list下的showList进行数组二次遍历           
                                 v.showList.map(v=>(   
-                                <div className={'swiper'} style={{marginRight:'40px'}}>                                                             
-                                    <div key={v.id}  style={{height:'100%',width:'100px'}}>                       
-                                    <img src={v.pic}  alt=""/>                                                                      
+                                <div className={'swiper'} style={{marginRight:'40px'}}>          
+                                    <div key={v.id}  style={{height:'100%',width:'100px'}}>          
+                                        <img className="theaterImg" src={v.pic}  alt=""/>
                                     </div> 
                                 </div>
                                 ))                         
                             }       
                             </div>
-                        </div>                                                                   
-                    ))                                       
+                        </div>                 
+                    ))                               
                     }                   
                     </div>                                                                
             </div>                           
         )
     }
     getList() {
-        this.$axios.get("/theatre/index/getTheatreList",{
+        this.$axios.get("/api/theatre/index/getTheatreList",{
             params:{
                 page:1
             }
