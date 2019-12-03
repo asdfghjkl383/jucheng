@@ -4,7 +4,7 @@ import HotsRecommend from "../../components/home/HotsRecommend";
 import ShowList from "../../components/home/ShowList";
 import TourRecommend from "../../components/home/TourRecommend"
 import FloorShow from "../../components/home/FloorShow"
-import Header from "../../components/home/header/header.js"
+import Header from "../../components/home/header/header"
 class Home extends React.Component{
     render(){
         return (

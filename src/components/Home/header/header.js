@@ -2,8 +2,8 @@ import React from 'react'
 import {createStore} from "redux"
 import '../../../assets/css/homeHeader.css'
 // import '../assets/css/TabBar.css'
-import Address from "../header/Address"
-import Search from "../header/Search"
+import Address from "./Address"
+import Search from "./Search"
 import {
     // BrowserRouter as Router,// 路由器
     Link,// 链接

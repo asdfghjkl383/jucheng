@@ -8,8 +8,8 @@ import {
 } from "react-router-dom"
 import Detail from "./views/Detail";
 import ShowsLibrary from "./views/showsLibrary";
-import MoreTourShowList from "./views/moreTourShowList";
-import Theater_one from './views/Theater_one';
+import MoreTourShowList from "./views/moreTourShowList"
+import Theater_one from './views/Theater_one'
 import Select from "./views/select";
 import Login from './views/login'
 import Search from './components/home/header/Search/index'
