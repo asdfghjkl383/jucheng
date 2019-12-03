@@ -8,15 +8,11 @@ import {
 } from "react-router-dom"
 import Detail from "./views/Detail";
 import ShowsLibrary from "./views/showsLibrary";
-import MoreTourShowList from "./views/moreTourShowList"
-import Theater from './views/theater'
-import Theater_one from './views/Theater_one'
-import Theater_two from './views/Theater_two'
+import MoreTourShowList from "./views/moreTourShowList";
+import Theater_one from './views/Theater_one';
 import Select from "./views/select";
-import Pay from "./views/pay";
 import Login from './views/login'
 import Address from './components/home/header/Address'
-
 function App() {
     return (
       <div className="App">
@@ -24,13 +20,11 @@ function App() {
           <Switch>
             <Route path={"/detail/:id"} component={Detail}></Route>
             <Route path={"/select-seat/:id"} component={Select}></Route>
-            <Route path={"/pay/:id"} component={Pay}></Route>
             <Route path={"/showsLibrary"} component={ShowsLibrary}></Route>
             <Route path={"/moreTourShowList"} component={MoreTourShowList}></Route>
             <Route path={"/login"} component={Login}></Route>
             <Route path={"/selectCity"} component={Address}></Route>
             <Route path={"/theater_one"} component={Theater_one}></Route>
-            <Route path={"/theater_two"} component={Theater_two}></Route>
             <Route path={"/"} component={TabBar}></Route>
           </Switch>
         </Router>

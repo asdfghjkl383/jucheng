@@ -1,4 +1,4 @@
-.wrap {
+.Login_wrap {
     height: 1334px;
     width: 750px;
     background-image: url(../../images/login_bg.png);
@@ -7,7 +7,7 @@
     overflow: hidden;
 }
 
-.wrap .aa {
+.Login_wrap .aa {
     background-image: url(../../images/left_gt.png);
     background-size:40px;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@
     padding:88.781px,64.057px,0;
     /* background: paleturquoise; */
 }
-.wrap .login_main .login_wrap {
+.Login_wrap .login_main .login_wrap {
     margin: auto;
     height:701.166px;
     width: 622.56px;
@@ -313,7 +313,7 @@ form {
 }
 /* --------------------------------------------- */
 
-.wrap .login_footer_wrap {
+.Login_wrap .login_footer_wrap {
     height: 143.12px;
     width:469px;
     padding:0,140.125px;
@@ -322,7 +322,7 @@ form {
     border-top:1px solid #6666;
     position: relative;
 }
-.wrap .login_footer_wrap .footer_title {
+.Login_wrap .login_footer_wrap .footer_title {
     position: absolute;
     top:-25px;
     left:30%;

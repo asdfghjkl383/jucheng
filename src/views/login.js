@@ -6,7 +6,7 @@ import axios from 'axios';
 class Login extends React.Component{
     render (){
         return (
-            <div className={"wrap login-bg"}>   
+            <div className={"Login_wrap login-bg"}>   
             {/*  给aa设点击事件 */}
                 <div className={"aa"} onClick={this.goBack.bind(this)}> </div>
                 <div className={"header"}>
