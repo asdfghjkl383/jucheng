@@ -9,9 +9,9 @@
   text-align: center;
   margin-top:20px;
 }
-.header{
-    background-image: url('../../assets/images/3-1.png') no-repeat 100% 100%;
-}
+/* .header{
+    background: url('../../assets/images/3-1.png') no-repeat 100% 100%;
+} */
 .Img_two{
     width:230px;
     height:200px;

@@ -1,0 +1,45 @@
+.homeHeader{
+    height: 100px;
+    width: 750px;
+    background: #fff;
+    position: fixed;
+    overflow: hidden;
+    z-index: 9;
+}
+.homeMap{
+    margin-left: 20px;
+    height: 60px;
+    width:165px;
+    background-image: url(../../images/orange_map.png);
+    background-size:48px ;
+    background-repeat: no-repeat;
+    background-position: 10px,center;
+    line-height: 60px;
+    padding-top:20px;
+    /* padding-left:15px; */
+    margin-top:10px;
+    border:1px solid #fff;
+    border-radius: 50px;
+    float: left;
+    color: #000;
+    font-size:38px;
+    font-weight: bolder;
+    
+}
+.homeMap .home_address{
+    height: 60px;
+    width:120px;
+    background: red;
+    
+    margin-left: 30px;
+    
+    font-weight: bolder;
+    color: #000;
+    z-index: 99;
+    display: bloack;
+}
+.heard_search{
+    width:500px;
+    height: 60px;
+    background: blue;
+}

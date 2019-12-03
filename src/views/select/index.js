@@ -7,7 +7,7 @@ class Select extends React.Component{
         return (
             <div>
                 <div className="selectContainer">
-                    <h5>选择日期</h5>
+                    <h5>选择日期<span className="exit" onClick={()=>this.props.history.go(-1)}>X</span></h5>
                     <li className="selectDate">2019.12.06 周五</li>
                     <li className="selectDate">2019.12.06 周五</li>
                     <li className="selectDate">2019.12.06 周五</li>

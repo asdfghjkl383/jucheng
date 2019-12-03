@@ -8,12 +8,13 @@ import {
 import Home from "../../views/home"
 import Theater from "../../views/theater"
 import Ticket from "../../views/ticket"
-import My from "../../views/my"
+import My from "../../views/my/index"
+import GuardRouter from "../../reducer/GuardRouter"
 
 class TabBar extends React.Component{
     render(){
         return (
-                <div>
+                <div className={"tbWrap"}>
                     <ul>
                     <div className="footer">
                         <li className="lf">
@@ -40,13 +41,13 @@ class TabBar extends React.Component{
                         <Switch>
                             <Route exact path={"/"} component={Home}></Route>
                             <Route path={"/theater"} component={Theater}></Route>
-                            <Route path={"/ticket"} component={Ticket}></Route>
-                            <Route path={"/my"} component={My}></Route>
+                            <Route path={"/ticket"} render={()=><GuardRouter component={Ticket}/>}></Route>
+                            <Route path={"/my"} render={()=><GuardRouter component={My}/>}></Route>
                         </Switch>
                     </ul>
                 </div>
-            
         )
     }
 }
+
 export default TabBar;
