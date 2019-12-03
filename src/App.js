@@ -12,6 +12,7 @@ import MoreTourShowList from "./views/moreTourShowList";
 import Theater_one from './views/Theater_one';
 import Select from "./views/select";
 import Login from './views/login'
+import Search from './components/home/header/Search/index'
 import Address from './components/home/header/Address'
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
             <Route path={"/showsLibrary"} component={ShowsLibrary}></Route>
             <Route path={"/moreTourShowList"} component={MoreTourShowList}></Route>
             <Route path={"/login"} component={Login}></Route>
+            <Route path={"/search"} component={Search}></Route>
             <Route path={"/selectCity"} component={Address}></Route>
             <Route path={"/theater_one"} component={Theater_one}></Route>
             <Route path={"/"} component={TabBar}></Route>

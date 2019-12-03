@@ -26,7 +26,7 @@ class Header extends React.Component {
                 <div className={"homeHeader"} >
                 <div className={"select"}   >
                     <Link className={"homeMap"} to={"/selectCity"} >
-                    123
+                    全国
                     {/* {this.props.location.state.name} */}
                     </Link>
                 </div>
