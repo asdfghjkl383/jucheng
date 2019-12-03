@@ -24,12 +24,12 @@ class Theater_one extends React.Component {
                 this.state.list.map(v=>(   
                     <div key={v.id} className={'big1'}>
                         <div className={"one"} onClick={this.handleClickBtn.bind(this)}>
-                        <img src={v.pic}  alt=""/>
+                        <div className={'Img_two'}><img src={v.pic}  alt=""/></div>
                         <div className={'two1'}>
-                        <h2 className="theater_one_h">{v.end_show_time}</h2>
-                        <h2 className="theater_one_h">{v.name}</h2>  
-                        <h3 className="theater_one_h">{v.city_name}|{v.venue_name}</h3>
-                        <h3 className="theater_one_h" style={{color:'red'}}>￥:{v.min_price}元</h3>
+                        <div className="theater_one_h">{v.end_show_time}</div>
+                        <div className="theater_one_h">{v.name}</div>  
+                        <div className="theater_one_g">{v.city_name}|{v.venue_name}</div>
+                        <div className="theater_one_g" style={{color:'red'}}>￥:{v.min_price}元</div>
                         </div> 
                         </div>                        
                         </div>                                                                   
@@ -68,7 +68,7 @@ class Theater_one extends React.Component {
     }  
     // 点击按钮跳转页面
     handleClickBtn(){
-        this.props.history.push('../Theater_two')
+        this.props.history.push('../showsLibrary')
     }   
     // 挂载渲染
     componentDidMount(){

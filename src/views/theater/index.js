@@ -21,11 +21,11 @@ class App extends React.Component {
                     this.state.theatre_list.map(v=>(    
                         <div key={v.id} className={'big'}>
                             <div className={"one"} onClick={this.handleClickBtn.bind(this)}>
-                                <img className="theaterImg" src={v.pic} style={{width:'80px',height:'60px'}} alt=""/>
+                                <div className="theaterImg" style={{width:'80px',height:'60px'}}><img  src={v.pic}  alt=""/></div>
                                 <div className={'two'}>
                                     <input type={'button'} value={'.....'}/> 
-                                    <p style={{fontSize:'20px'}}>{v.name}</p>  
-                                    <p>{v.count}场在售演出</p>              
+                                    <div className={'Img_name'} style={{fontSize:'20px'}}>{v.name}</div>  
+                                    <div className={'Img_name'}>{v.count}场在售演出</div>              
                                 </div>                   
                             </div>
                             <div className="aaa" style={{display:'flex',flexDirection:'row',overflow:'auto'}}>
