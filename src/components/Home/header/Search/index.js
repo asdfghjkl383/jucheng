@@ -19,8 +19,8 @@ class Search extends React.Component {
             <div className={"search_warp"}>
                 <div className={"search_header"}>
                     <input type="text" className={"search_text"} placeholder="请输入关键词" ref={"searchText"}
-                    type={'text'} placeholder={'搜索热门演出'}                   
-                    onKeyDown={(v) => this.searchShowList(v,this.state.page++)}/>
+                    type={'text'} placeholder={'搜索热门演出'}/>
+                     {/* onKeyDown={(v) => this.searchShowList(v,this.state.page++)} */}
                     <Link to={"/"} className={"goHome"}>取消</Link>
                 </div>
                 <p className={"search_title"}>热门搜索</p>

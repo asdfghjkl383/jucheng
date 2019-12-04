@@ -2,9 +2,9 @@
     height: 1334px;
     width: 750px;
     background-image: url(../../images/login_bg.png);
-    background-size:100%;
+    background-size:100% 100%;
     background-repeat: no-repeat;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .Login_wrap .aa {
@@ -158,6 +158,7 @@ form {
     text-align: center;
     line-height:100.08px;
     color:#ffffff;
+    background: #ccc;
     margin-top:90.08px;
     border:none;
     border-radius: 50px;
@@ -274,6 +275,7 @@ form {
     border:none;
     border-radius: 50px;
     font-size:38px;
+    background: #ccc;
 }
 .login_wrap .binded-register .register-toggle {
     height: 40px;

@@ -33,7 +33,14 @@ class Header extends React.Component {
                 <Link className={"heard_search"}   to={"/search"}>
                     <div className={"search_content"}>搜索热门演出</div>
                 </Link>
+                <div className={"data"}>
+                    {/* <img src="../../../images/rili.png "/> */}
                 </div>
+                <div className={"plus"}>
+                    
+                </div>
+                </div>
+                
             </div>
         )
     }
