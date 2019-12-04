@@ -10,7 +10,7 @@
     margin-left: 20px;
     height: 60px;
     width:165px;
-    background-image: url(../../images/orange_map.png);
+    background-image: url(../images/orange_map.png);
     background-size:48px ;
     background-repeat: no-repeat;
     background-position: 10px,center;
@@ -44,7 +44,7 @@
     background: blue;
 }
 .data{
-    background-image: url(../../images/rili.png);
+    background-image: url(../images/rili.png);
     background-size:40px ;
     background-repeat: no-repeat;
     background-position: 0px,center;

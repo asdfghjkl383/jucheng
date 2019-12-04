@@ -19,7 +19,7 @@
     display: block;
     height: 100px;
     width:200px;
-    background-image: url(../../images/left_gt.png);
+    background-image: url(../images/left_gt.png);
     background-size:50px ;
     background-repeat: no-repeat;
     background-position: left,center;
@@ -43,7 +43,7 @@
     margin-top:-77px;
     border:1px solid #ebebeb;
     border-radius: 50px;
-    background-image:url(../../images/big.png) ;
+    background-image:url(../images/big.png) ;
     background-size:60px ;
     background-repeat: no-repeat;
     background-position: 20px,center;

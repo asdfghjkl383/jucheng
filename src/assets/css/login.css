@@ -1,14 +1,14 @@
 .Login_wrap {
     height: 1334px;
     width: 750px;
-    background-image: url(../../images/login_bg.png);
+    background-image: url(../images/login_bg.png);
     background-size:100% 100%;
     background-repeat: no-repeat;
     /* overflow: hidden; */
 }
 
 .Login_wrap .aa {
-    background-image: url(../../images/left_gt.png);
+    background-image: url(../images/left_gt.png);
     background-size:40px;
     background-repeat: no-repeat;
     background-position: 20px,center;
@@ -87,7 +87,7 @@ form {
     width:25px ;
     height:25px ;
     vertical-align: middle;
-    background-image:url(../../images/login_delete.png);
+    background-image:url(../images/login_delete.png);
     background-size:100% ;
     background-repeat: no-repeat;
     background-position: center,center;
@@ -99,7 +99,7 @@ form {
     width:25px ;
     height:25px ;
     vertical-align: middle;
-    background-image:url(../../images/login_delete.png);
+    background-image:url(../images/login_delete.png);
     background-size:100% ;
     background-repeat: no-repeat;
     background-position: center,center;
@@ -113,7 +113,7 @@ form {
     width:25px ;
     height:25px ;
     vertical-align: middle;
-    background-image:url(../../images/login_delete.png);
+    background-image:url(../images/login_delete.png);
     background-size:100% ;
     background-repeat: no-repeat;
     background-position: center,center;
@@ -123,7 +123,7 @@ form {
     display: none;
 }
 .login-area  .lg-item .look1 {
-    background-image: url(../../images/login_visible.png);
+    background-image: url(../images/login_visible.png);
     width: 30px;
     height: 30px;
     background-size:100% ;
@@ -137,7 +137,7 @@ form {
     display: none;
 }
 .login-area  .lg-item .unlook {
-    background-image: url(../../images/login_Invisible.png);
+    background-image: url(../images/login_Invisible.png);
     width: 30px;
     height: 30px;
     background-size:100% ;
@@ -339,7 +339,7 @@ form {
 .login-qq {
     height:72.06px;
     width: 230px;
-    background-image: url(../../images/qq.png);
+    background-image: url(../images/qq.png);
     background-size:72.06px;
     background-repeat: no-repeat;
     background-position: center,center;
@@ -354,7 +354,7 @@ form {
 .login-weibo {
     height:72.06px;
     width: 230px;
-    background-image: url(../../images/weibo.png);
+    background-image: url(../images/weibo.png);
     background-size:72.06px;
     background-repeat: no-repeat;
     background-position: center,center;
